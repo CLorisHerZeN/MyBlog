@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Servlet | 机器人在吹萨克斯</title><meta name="author" content="ClorisHerZeN"><meta name="copyright" content="ClorisHerZeN"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="该知识点为JavaWeb关键技术栈之一。JavaWeb三大组件：Servlet程序、Filter过滤器、Listener监听器  简介 静态资源：无需在程序运行时通过代码运行生成的资源,在程序运行之前就写好的资源. 例如:html css js img ,音频文件和视频文件 获取过程：客户端发送请求报文请求对应静态资源，服务端返回响应报文，把静态资源装载在响应体中，将资源类型放在响应头的Cont">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Servlet | 机器人在吹萨克斯</title><meta name="author" content="ClorisHerZeN"><meta name="copyright" content="ClorisHerZeN"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="该知识点为JavaWeb关键技术栈之一。JavaWeb三大组件：Servlet程序、Filter过滤器、Listener监听器  简介  静态资源：无需在程序运行时通过代码运行生成的资源,在程序运行之前就写好的资源. 例如:html css js img ,音频文件和视频文件  获取过程：客户端发送请求报文请求对应静态资源，服务端返回响应报文，把静态资源装载在响应体中，将资源类型放在响应头的Co">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Servlet">
 <meta property="og:url" content="http://example.com/2024/10/07/Servlet/index.html">
 <meta property="og:site_name" content="机器人在吹萨克斯">
-<meta property="og:description" content="该知识点为JavaWeb关键技术栈之一。JavaWeb三大组件：Servlet程序、Filter过滤器、Listener监听器  简介 静态资源：无需在程序运行时通过代码运行生成的资源,在程序运行之前就写好的资源. 例如:html css js img ,音频文件和视频文件 获取过程：客户端发送请求报文请求对应静态资源，服务端返回响应报文，把静态资源装载在响应体中，将资源类型放在响应头的Cont">
+<meta property="og:description" content="该知识点为JavaWeb关键技术栈之一。JavaWeb三大组件：Servlet程序、Filter过滤器、Listener监听器  简介  静态资源：无需在程序运行时通过代码运行生成的资源,在程序运行之前就写好的资源. 例如:html css js img ,音频文件和视频文件  获取过程：客户端发送请求报文请求对应静态资源，服务端返回响应报文，把静态资源装载在响应体中，将资源类型放在响应头的Co">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/img/JavaWeb/Servlet%E5%B0%81%E9%9D%A21.jpg">
 <meta property="article:published_time" content="2024-10-06T16:00:00.000Z">
@@ -177,44 +177,57 @@
 })()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">58</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/JavaWeb/Servlet%E5%B0%81%E9%9D%A21.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="机器人在吹萨克斯"><span class="site-name">机器人在吹萨克斯</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Servlet</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-10-06T16:00:00.000Z" title="发表于 2024-10-07 00:00:00">2024-10-07</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-10-12T13:58:21.274Z" title="更新于 2024-10-12 21:58:21">2024-10-12</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">6.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>22分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Servlet"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><blockquote>
 <p>该知识点为JavaWeb关键技术栈之一。JavaWeb三大组件：Servlet程序、Filter过滤器、Listener监听器</p>
 </blockquote>
-<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><ul>
-<li>静态资源：无需在程序运行时通过代码运行生成的资源,在程序运行之前就写好的资源. 例如:html css js img ,音频文件和视频文件<ul>
+<h1>简介</h1>
+<ul>
+<li>静态资源：无需在程序运行时通过代码运行生成的资源,在程序运行之前就写好的资源. 例如:html css js img ,音频文件和视频文件
+<ul>
 <li>获取过程：客户端发送请求报文请求对应静态资源，服务端返回响应报文，把静态资源装载在响应体中，将资源类型放在响应头的Content-Type中</li>
 </ul>
 </li>
-<li>动态资源：需要在程序运行时通过代码运行生成的资源,在程序运行之前无法确定的数据,运行时动态生成,例如Servlet，Thymeleaf，指的不是视图上的动画效果或者是简单的人机交互效果<ul>
+<li>动态资源：需要在程序运行时通过代码运行生成的资源,在程序运行之前无法确定的数据,运行时动态生成,例如Servlet，Thymeleaf，指的不是视图上的动画效果或者是简单的人机交互效果
+<ul>
 <li>获取过程：客户端向服务端发送请求报文，动态资源对应Java代码根据请求报文数据生成<strong>不同的</strong>响应数据，Tomcat将数据转换成响应报文</li>
 </ul>
 </li>
 </ul>
-<h2 id="Servlet简介"><a href="#Servlet简介" class="headerlink" title="Servlet简介"></a>Servlet简介</h2><ul>
+<h2 id="Servlet简介">Servlet简介</h2>
+<ul>
 <li>Servlet  (server applet) 是运行在服务端(tomcat)的Java小程序，是一套定义<strong>动态资源</strong>规范; 从代码层面上来讲Servlet就是一个接口，用来<strong>接收</strong>、处理客户端请求并<strong>响应</strong>给客户端动态资源。</li>
 </ul>
 <p><strong>Servlet API 包含以下4个Java包：</strong></p>
 <ol>
-<li><p>javax.servlet   其中包含定义servlet和servlet容器（本问为Tomcat）之间契约的类和接口。</p>
+<li>
+<p>javax.servlet   其中包含定义servlet和servlet容器（本问为Tomcat）之间契约的类和接口。</p>
 </li>
-<li><p>javax.servlet.http   其中包含定义HTTP Servlet 和Servlet容器之间的关系。</p>
+<li>
+<p>javax.servlet.http   其中包含定义HTTP Servlet 和Servlet容器之间的关系。</p>
 </li>
-<li><p>javax.servlet.annotation   其中包含标注servlet，Filter,Listener的标注。它还为被标注元件定义元数据。</p>
+<li>
+<p>javax.servlet.annotation   其中包含标注servlet，Filter,Listener的标注。它还为被标注元件定义元数据。</p>
 </li>
-<li><p>javax.servlet.descriptor，其中包含提供程序化登录Web应用程序的配置信息的类型。</p>
+<li>
+<p>javax.servlet.descriptor，其中包含提供程序化登录Web应用程序的配置信息的类型。</p>
 </li>
 </ol>
-<h1 id="运行与开发流程"><a href="#运行与开发流程" class="headerlink" title="运行与开发流程"></a>运行与开发流程</h1><p><img src="/img/JavaWeb/%E5%AF%B9%E5%BA%94%E5%85%B3%E7%B3%BB.png" alt="对应关系"></p>
+<h1>运行与开发流程</h1>
+<p><img src="/img/JavaWeb/%E5%AF%B9%E5%BA%94%E5%85%B3%E7%B3%BB.png" alt="对应关系"></p>
 <ol>
-<li><p>浏览器发送请求报文</p>
+<li>
+<p>浏览器发送请求报文</p>
 </li>
-<li><p>Tomcat接收报文，将所有信息封装为<code>HttpServletRequest对象</code></p>
+<li>
+<p>Tomcat接收报文，将所有信息封装为<code>HttpServletRequest对象</code></p>
 </li>
-<li><p>Tomcat同时创建<code>HttpServletResponse对象</code>，用于装载要响应给客户端的信息</p>
+<li>
+<p>Tomcat同时创建<code>HttpServletResponse对象</code>，用于装载要响应给客户端的信息</p>
 </li>
-<li><p>Tomcat根据请求中的资源路径找到对应的Servlet，实例化，调用Service方法，传入两个对象</p>
+<li>
+<p>Tomcat根据请求中的资源路径找到对应的Servlet，实例化，调用Service方法，传入两个对象</p>
 </li>
-<li><p>动态资源对应的 Java程序Servlet类需要实现Servlet接口（实际开发中多数是继承其子类HttpServlet，并重写doGet和doPost方法），重写Service方法，该方法接收上述两个对象</p>
+<li>
+<p>动态资源对应的 Java程序Servlet类需要实现Servlet接口（实际开发中多数是继承其子类HttpServlet，并重写doGet和doPost方法），重写Service方法，该方法接收上述两个对象</p>
 <p>以下为该接口定义的抽象方法，继承后必须全部实现：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">Servlet</span> &#123;</span><br><span class="line">    <span class="comment">//初始化方法</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">init</span><span class="params">(ServletConfig var1)</span> <span class="keyword">throws</span> ServletException;</span><br><span class="line"> 	<span class="comment">//获取ServletConfig对象方法</span></span><br><span class="line">    ServletConfig <span class="title function_">getServletConfig</span><span class="params">()</span>;</span><br><span class="line"> 	<span class="comment">//提供服务方法</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">service</span><span class="params">(ServletRequest var1, ServletResponse var2)</span> <span class="keyword">throws</span> ServletException, IOException;</span><br><span class="line"> 	<span class="comment">//获取Servlet信息方法</span></span><br><span class="line">    String <span class="title function_">getServletInfo</span><span class="params">()</span>;</span><br><span class="line"> 	<span class="comment">//销毁方法</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">destroy</span><span class="params">()</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 <ul>
 <li>Service方法从request对象中获取请求的参数</li>
 <li>根据参数生成响应数据</li>
@@ -222,13 +235,14 @@
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">UserServlet</span>  <span class="keyword">extends</span> <span class="title class_">HttpServlet</span> &#123;</span><br><span class="line">    <span class="comment">//Servlet对象的生命周期(创建,初始化,处理服务,销毁)是由tomcat管理的,无需我们自己new</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">void</span> <span class="title function_">service</span><span class="params">(HttpServletRequest req, HttpServletResponse resp)</span> <span class="keyword">throws</span> ServletException, IOException &#123;</span><br><span class="line">        <span class="comment">// 获取请求中的参数</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">username</span> <span class="operator">=</span> req.getParameter(<span class="string">&quot;username&quot;</span>);</span><br><span class="line">        <span class="keyword">if</span>(<span class="string">&quot;Cloris&quot;</span>.equals(username))&#123;</span><br><span class="line">            <span class="comment">//通过响应对象响应信息</span></span><br><span class="line">            resp.getWriter().write(<span class="string">&quot;NO&quot;</span>);</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            resp.getWriter().write(<span class="string">&quot;YES&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>Servlet并不是文件系统中实际存在的文件或者目录，且service是实例方法，为了通知Tomcat需要实例化的Servlet类，需要为其在web.xml中配置映射路径，从而通过反射创建实例并调用方法</p>
+<li>
+<p>Servlet并不是文件系统中实际存在的文件或者目录，且service是实例方法，为了通知Tomcat需要实例化的Servlet类，需要为其在web.xml中配置映射路径，从而通过反射创建实例并调用方法</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=<span class="string">&quot;1.0&quot;</span> encoding=<span class="string">&quot;UTF-8&quot;</span>?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">web-app</span> <span class="attr">xmlns</span>=<span class="string">&quot;https://jakarta.ee/xml/ns/jakartaee&quot;</span></span></span><br><span class="line"><span class="tag">         <span class="attr">xmlns:xsi</span>=<span class="string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span><br><span class="line"><span class="tag">         <span class="attr">xsi:schemaLocation</span>=<span class="string">&quot;https://jakarta.ee/xml/ns/jakartaee </span></span></span><br><span class="line"><span class="string"><span class="tag">                             https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd&quot;</span></span></span><br><span class="line"><span class="tag">         <span class="attr">version</span>=<span class="string">&quot;5.0&quot;</span>&gt;</span></span><br><span class="line">    </span><br><span class="line">	<span class="comment">&lt;!--servlet标签给Tomcat配置Servlet程序--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">servlet</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!--给UserServlet起一个别名，一般是类名--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">servlet-name</span>&gt;</span>userServlet<span class="tag">&lt;/<span class="name">servlet-name</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!--全类名--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">servlet-class</span>&gt;</span>com.cloris.servlet.UserServlet<span class="tag">&lt;/<span class="name">servlet-class</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">servlet</span>&gt;</span></span><br><span class="line">    </span><br><span class="line">	<span class="comment">&lt;!--servlet-mapping标签给Servlet程序配置访问地址--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">servlet-mapping</span>&gt;</span>	</span><br><span class="line">        <span class="comment">&lt;!--向服务器表明当前配置地址给哪个Servlet程序使用--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">servlet-name</span>&gt;</span>userServlet<span class="tag">&lt;/<span class="name">servlet-name</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!--配置访问地址，/开头，可以为一个Servlet匹配多个不同的映射路径,</span></span><br><span class="line"><span class="comment">			但是不同的Servlet不能使用相同的url-pattern，</span></span><br><span class="line"><span class="comment">			此地址为http://ip:port/工程路径/userServlet--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">url-pattern</span>&gt;</span>/userServlet<span class="tag">&lt;/<span class="name">url-pattern</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!--</span></span><br><span class="line"><span class="comment">            /        表示通配所有资源,不包括jsp文件</span></span><br><span class="line"><span class="comment">            /*       表示通配所有资源,包括jsp文件</span></span><br><span class="line"><span class="comment">            /a/*     匹配所有以a前缀的映射路径</span></span><br><span class="line"><span class="comment">            /*.action 匹配所有以action为后缀的映射路径</span></span><br><span class="line"><span class="comment">         --&gt;</span></span><br><span class="line">       <span class="comment">&lt;!-- &lt;url-pattern&gt;/*&lt;/url-pattern&gt;--&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">servlet-mapping</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">web-app</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
 <p>开发一个form表单,向servlet发送一个get请求并携带username参数</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">&quot;userServlet&quot;</span>&gt;</span>		<span class="comment">&lt;!--对应xml中&lt;url-pattern&gt;--&gt;</span></span><br><span class="line">        请输入用户名:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">name</span>=<span class="string">&quot;username&quot;</span> /&gt;</span> <span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;submit&quot;</span> <span class="attr">value</span>=<span class="string">&quot;校验&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p>Tomcat将response对象转换为响应报文并返回给浏览器</p>
+<li>
+<p>Tomcat将response对象转换为响应报文并返回给浏览器</p>
 </li>
 </ol>
 <p><strong>servlet-api.jar包导入问题</strong>：</p>
@@ -237,49 +251,59 @@
 </ul>
 <p><strong>Content-Type响应头问题</strong>：</p>
 <ul>
-<li>MINE类型响应头，也叫媒体类型&#x2F;文件类型&#x2F;响应的数据类型</li>
+<li>MINE类型响应头，也叫媒体类型/文件类型/响应的数据类型</li>
 <li>用于告诉客户端响应的数据是什么类型，客户端以此决定用什么方式解析响应体</li>
 <li>如<code>responses.setContentType(&quot;text/Html&quot;);</code>可直接设置</li>
 </ul>
-<h2 id="使用IDEA创建Servlet程序"><a href="#使用IDEA创建Servlet程序" class="headerlink" title="使用IDEA创建Servlet程序"></a>使用IDEA创建Servlet程序</h2><ul>
-<li>选择包&#x3D;&#x3D;》New  &#x3D;&#x3D;》 Create New Servlet &#x3D;&#x3D;》 设置ServletName、类在哪个包及全类名</li>
+<h2 id="使用IDEA创建Servlet程序">使用IDEA创建Servlet程序</h2>
+<ul>
+<li>选择包==》New  ==》 Create New Servlet ==》 设置ServletName、类在哪个包及全类名</li>
 </ul>
-<h1 id="Servlet注解方式配置"><a href="#Servlet注解方式配置" class="headerlink" title="Servlet注解方式配置"></a>Servlet注解方式配置</h1><h2 id="WebServlet注解使用"><a href="#WebServlet注解使用" class="headerlink" title="@WebServlet注解使用"></a>@WebServlet注解使用</h2><ul>
+<h1>Servlet注解方式配置</h1>
+<h2 id="WebServlet注解使用">@WebServlet注解使用</h2>
+<ul>
 <li>用于定义一个Servlet。可以指定Servlet的名称、URL映射（访问路径）、初始化参数等。</li>
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@WebServlet(</span></span><br><span class="line"><span class="meta">        name = &quot;userServlet&quot;,</span></span><br><span class="line"><span class="meta">        //value = &quot;/user&quot;,</span></span><br><span class="line"><span class="meta">        urlPatterns = &#123;&quot;/userServlet1&quot;,&quot;/userServlet2&quot;,&quot;/userServlet&quot;&#125;,</span></span><br><span class="line"><span class="meta">        initParams = &#123;@WebInitParam(name = &quot;encoding&quot;,value = &quot;UTF-8&quot;)&#125;,</span></span><br><span class="line"><span class="meta">        loadOnStartup = 6</span></span><br><span class="line"><span class="meta">)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">UserServlet</span>  <span class="keyword">extends</span> <span class="title class_">HttpServlet</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">void</span> <span class="title function_">service</span><span class="params">(HttpServletRequest req, HttpServletResponse resp)</span> <span class="keyword">throws</span> ServletException, IOException &#123;</span><br><span class="line">        <span class="type">String</span> <span class="variable">encoding</span> <span class="operator">=</span> getServletConfig().getInitParameter(<span class="string">&quot;encoding&quot;</span>);</span><br><span class="line">        System.out.println(encoding);</span><br><span class="line">        <span class="comment">// 获取请求中的参数</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">username</span> <span class="operator">=</span> req.getParameter(<span class="string">&quot;username&quot;</span>);</span><br><span class="line">        <span class="keyword">if</span>(<span class="string">&quot;atguigu&quot;</span>.equals(username))&#123;</span><br><span class="line">            <span class="comment">//通过响应对象响应信息</span></span><br><span class="line">            resp.getWriter().write(<span class="string">&quot;NO&quot;</span>);</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            resp.getWriter().write(<span class="string">&quot;YES&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 <ul>
 <li><code>@WebInitParam</code>：与<code>@WebServlet</code>配合使用，用于定义Servlet的初始化参数。</li>
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@WebServlet(name = &quot;MyServlet&quot;, urlPatterns = &#123;&quot;/myServlet&quot;&#125;,</span></span><br><span class="line"><span class="meta">            initParams = &#123;</span></span><br><span class="line"><span class="meta">                @WebInitParam(name = &quot;param1&quot;, value = &quot;value1&quot;),</span></span><br><span class="line"><span class="meta">                @WebInitParam(name = &quot;param2&quot;, value = &quot;value2&quot;)</span></span><br><span class="line"><span class="meta">            &#125;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">MyServlet</span> <span class="keyword">extends</span> <span class="title class_">HttpServlet</span> &#123;</span><br><span class="line">    <span class="comment">// Servlet implementation</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 <ul>
-<li><p><code>@.WebServlet</code>注解的属性：</p>
+<li>
+<p><code>@.WebServlet</code>注解的属性：</p>
 <ul>
-<li><p><code>name</code>：Servlet的名称。</p>
+<li>
+<p><code>name</code>：Servlet的名称。</p>
 </li>
-<li><p><code>value</code>：等同于<code>urlPatterns</code>，用于定义Servlet的URL映射。</p>
+<li>
+<p><code>value</code>：等同于<code>urlPatterns</code>，用于定义Servlet的URL映射。</p>
 </li>
-<li><p><code>urlPatterns</code>：定义Servlet的URL映射。</p>
+<li>
+<p><code>urlPatterns</code>：定义Servlet的URL映射。</p>
 </li>
-<li><p><code>loadOnStartup</code>：定义Servlet的加载顺序。</p>
+<li>
+<p><code>loadOnStartup</code>：定义Servlet的加载顺序。</p>
 </li>
-<li><p><code>initParams</code>：定义Servlet的初始化参数。</p>
+<li>
+<p><code>initParams</code>：定义Servlet的初始化参数。</p>
 </li>
-<li><p><code>asyncSupported</code>：标记Servlet是否支持异步操作。</p>
+<li>
+<p><code>asyncSupported</code>：标记Servlet是否支持异步操作。</p>
 </li>
 </ul>
 </li>
 </ul>
-<h1 id="Servlet生命周期"><a href="#Servlet生命周期" class="headerlink" title="Servlet生命周期"></a>Servlet生命周期</h1><ul>
+<h1>Servlet生命周期</h1>
+<ul>
 <li>生命周期就是对象在容器中从开始创建到销毁的过程</li>
 </ul>
 <p><strong>Servlet容器</strong>：</p>
 <ul>
 <li>Servlet对象是Servlet容器创建的，生命周期方法都是由容器(目前我们使用的是Tomcat)调用的</li>
 </ul>
-<h2 id="Servlet主要的生命周期执行特点"><a href="#Servlet主要的生命周期执行特点" class="headerlink" title="Servlet主要的生命周期执行特点"></a>Servlet主要的生命周期执行特点</h2><table>
+<h2 id="Servlet主要的生命周期执行特点">Servlet主要的生命周期执行特点</h2>
+<table>
 <thead>
 <tr>
 <th>生命周期</th>
@@ -288,7 +312,8 @@
 <th>执行次数</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>构造对象</td>
 <td>构造器（创建Servlet对象）</td>
 <td>第一次请求或者容器启动</td>
@@ -312,35 +337,43 @@
 <td>容器关闭</td>
 <td>1</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <ol>
 <li>Servlet对象在容器中是单例（只有一个对象）的</li>
 <li>容器是可以处理并发的用户请求的,每个请求在容器中都会开启一个线程</li>
 <li>多个线程可能会使用相同的Servlet对象,所以在Servlet中,不要轻易定义一些容易经常发生修改的成员变量</li>
 </ol>
-<h1 id="Servlet继承结构"><a href="#Servlet继承结构" class="headerlink" title="Servlet继承结构"></a>Servlet继承结构</h1><p>Servlet 是一个接口，其中一共有上述提到过的 5 个方法，当我们的类实现了这个接口以后，必须将这 5 个方法全部实现。</p>
+<h1>Servlet继承结构</h1>
+<p>Servlet 是一个接口，其中一共有上述提到过的 5 个方法，当我们的类实现了这个接口以后，必须将这 5 个方法全部实现。</p>
 <p>为了让service()对象创建Servlet对象更简便高效，对HTTP协议进行封装：</p>
 <p><img src="/img/JavaWeb/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84.png" alt="体系结构"></p>
-<h2 id="Servlet接口"><a href="#Servlet接口" class="headerlink" title="Servlet接口"></a>Servlet接口</h2><ul>
+<h2 id="Servlet接口">Servlet接口</h2>
+<ul>
 <li>只是负责定义Servlet程序的访问规范</li>
 </ul>
-<h2 id="GenericServlet-抽象类"><a href="#GenericServlet-抽象类" class="headerlink" title="GenericServlet 抽象类"></a>GenericServlet 抽象类</h2><ul>
+<h2 id="GenericServlet-抽象类">GenericServlet 抽象类</h2>
+<ul>
 <li>GenericServlet 抽象类是对Servlet接口一些固定功能的空实现，以及对service方法的再次抽象声明，并定义了一些其他相关功能方法</li>
 </ul>
-<h2 id="HttpServlet-抽象类"><a href="#HttpServlet-抽象类" class="headerlink" title="HttpServlet 抽象类"></a>HttpServlet 抽象类</h2><ul>
+<h2 id="HttpServlet-抽象类">HttpServlet 抽象类</h2>
+<ul>
 <li>HttpServlet抽象类,除了基本的实现以外,增加了更多的基础功能（请求的分发处理——getMethod()）</li>
 </ul>
-<h2 id="自定义Servlet"><a href="#自定义Servlet" class="headerlink" title="自定义Servlet"></a>自定义Servlet</h2><ul>
+<h2 id="自定义Servlet">自定义Servlet</h2>
+<ul>
 <li>继承关系图解</li>
 </ul>
 <p><img src="/img/JavaWeb/%E7%BB%A7%E6%89%BF%E5%85%B3%E7%B3%BB%E5%9B%BE%E8%A7%A3.png" alt="继承关系图解"></p>
 <p>自定义Servlet中,必须要对处理请求的方法进行重写</p>
 <ul>
 <li>要么重写service方法</li>
-<li>要么重写<strong>doGet&#x2F;doPost</strong>方法（看是GET请求还是POST请求）</li>
+<li>要么重写<strong>doGet/doPost</strong>方法（看是GET请求还是POST请求）</li>
 <li>同时重写service优先生效</li>
 </ul>
-<h1 id="ServletConfig类和ServletContext类"><a href="#ServletConfig类和ServletContext类" class="headerlink" title="ServletConfig类和ServletContext类"></a>ServletConfig类和ServletContext类</h1><h2 id="ServletConfig的使用（了解）"><a href="#ServletConfig的使用（了解）" class="headerlink" title="ServletConfig的使用（了解）"></a>ServletConfig的使用（了解）</h2><ul>
+<h1>ServletConfig类和ServletContext类</h1>
+<h2 id="ServletConfig的使用（了解）">ServletConfig的使用（了解）</h2>
+<ul>
 <li>ServletConfig为Servlet提供初始配置参数的一种对象,每个Servlet都有自己独立唯一的ServletConfig对象</li>
 <li>容器会为每个Servlet实例化一个ServletConfig对象,并通过Servlet生命周期的<strong>init方法</strong>传入给Servlet作为属性</li>
 </ul>
@@ -354,9 +387,10 @@
 <th>作用</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>getServletName()</td>
-<td>获取&lt;servlet-name&gt;HelloServlet&lt;&#x2F;servlet-name&gt;定义的Servlet别名</td>
+<td>获取&lt;servlet-name&gt;HelloServlet&lt;/servlet-name&gt;定义的Servlet别名</td>
 </tr>
 <tr>
 <td>getServletContext()</td>
@@ -370,8 +404,10 @@
 <td>getInitParameterNames()</td>
 <td>获取所有初始化参数名组成的Enumeration对象</td>
 </tr>
-</tbody></table>
-<h2 id="ServletContext的使用"><a href="#ServletContext的使用" class="headerlink" title="ServletContext的使用"></a>ServletContext的使用</h2><ul>
+</tbody>
+</table>
+<h2 id="ServletContext的使用">ServletContext的使用</h2>
+<ul>
 <li>ServletContext对象有称呼为上下文对象,或者叫应用域对象</li>
 <li>容器会为<strong>每个</strong>app创建一个<strong>独立的唯一的</strong>ServletContext对象</li>
 </ul>
@@ -382,12 +418,11 @@
 <li>在Servlet中获取ServletContext并获取参数</li>
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ServletA</span> <span class="keyword">extends</span> <span class="title class_">HttpServlet</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">void</span> <span class="title function_">service</span><span class="params">(HttpServletRequest req, HttpServletResponse resp)</span> <span class="keyword">throws</span> ServletException, IOException &#123;</span><br><span class="line">       </span><br><span class="line">        <span class="comment">// 从ServletContext中获取为所有的Servlet准备的参数</span></span><br><span class="line">        <span class="type">ServletContext</span> <span class="variable">servletContext</span> <span class="operator">=</span> <span class="built_in">this</span>.getServletContext();</span><br><span class="line">        <span class="type">String</span> <span class="variable">valueA</span> <span class="operator">=</span> servletContext.getInitParameter(<span class="string">&quot;paramA&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;paramA:&quot;</span>+valueA);</span><br><span class="line">        <span class="comment">// 获取所有参数名</span></span><br><span class="line">        Enumeration&lt;String&gt; initParameterNames = servletContext.getInitParameterNames();</span><br><span class="line">        <span class="comment">// 迭代并获取参数名</span></span><br><span class="line">        <span class="keyword">while</span> (initParameterNames.hasMoreElements()) &#123;</span><br><span class="line">            <span class="type">String</span> <span class="variable">paramaterName</span> <span class="operator">=</span> initParameterNames.nextElement();</span><br><span class="line">            System.out.println(paramaterName+<span class="string">&quot;:&quot;</span>+servletContext.getInitParameter(paramaterName));</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="ServletContext其他重要API"><a href="#ServletContext其他重要API" class="headerlink" title="ServletContext其他重要API"></a>ServletContext其他重要API</h3><blockquote>
+<h3 id="ServletContext其他重要API">ServletContext其他重要API</h3>
+<blockquote>
 <p>获取资源的真实路径</p>
 </blockquote>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">realPath</span> <span class="operator">=</span> servletContext.getRealPath(<span class="string">&quot;资源在web目录中的路径&quot;</span>);</span><br></pre></td></tr></table></figure>
-
 <ul>
 <li>例如我们的目标是需要获取项目中某个静态资源的路径，不是工程目录中的路径，而是<strong>部署目录中的路径</strong>；我们如果直接拷贝其在我们电脑中的完整路径的话其实是有问题的，因为如果该项目以后部署到公司服务器上的话，路径肯定是会发生改变的，所以我们需要使用代码动态获取资源的真实路径.  只要使用了servletContext动态获取资源的真实路径，<strong>那么无论项目的部署路径发生什么变化，都会动态获取项目运行时候的实际路径</strong>，所以就不会发生由于写死真实路径而导致项目部署位置改变引发的路径错误问题</li>
 </ul>
@@ -395,12 +430,11 @@
 <p>获取项目的上下文路径</p>
 </blockquote>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">contextPath</span> <span class="operator">=</span> servletContext.getContextPath();</span><br></pre></td></tr></table></figure>
-
 <ul>
 <li>项目的部署名称,也叫项目的上下文路径,在部署进入tomcat时所使用的路径,该路径是可能发生变化的,通过该API动态获取项目真实的上下文路径,可以<strong>帮助我们解决一些后端页面渲染技术或者请求转发和响应重定向中的路径问题</strong></li>
 </ul>
 <blockquote>
-<p> 域对象的相关API</p>
+<p>域对象的相关API</p>
 </blockquote>
 <table>
 <thead>
@@ -409,9 +443,10 @@
 <th>功能解释</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>void setAttribute(String key,Object value);</td>
-<td>向域中存储&#x2F;修改数据</td>
+<td>向域中存储/修改数据</td>
 </tr>
 <tr>
 <td>Object getAttribute(String key);</td>
@@ -421,13 +456,15 @@
 <td>void removeAttribute(String key);</td>
 <td>移除域中的数据</td>
 </tr>
-</tbody></table>
-<h1 id="HttpServletRequest"><a href="#HttpServletRequest" class="headerlink" title="HttpServletRequest"></a>HttpServletRequest</h1><blockquote>
+</tbody>
+</table>
+<h1>HttpServletRequest</h1>
+<blockquote>
 <p>HttpServletRequest是什么</p>
 </blockquote>
 <ul>
 <li>HttpServletRequest是一个接口,其父接口是ServletRequest</li>
-<li>当有请求进入服务器，服务器就会将请求带来的Http协议解析封装到Request对象，并传递到service方法&#x2F;doGet和doPost给我们使用，通过该对象可以获取到所有请求的信息</li>
+<li>当有请求进入服务器，服务器就会将请求带来的Http协议解析封装到Request对象，并传递到service方法/doGet和doPost给我们使用，通过该对象可以获取到所有请求的信息</li>
 </ul>
 <blockquote>
 <p>HttpServletRequest怎么用</p>
@@ -442,7 +479,8 @@
 <th>功能解释</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>String Buffer getRequestURL();</td>
 <td>获取客户端请求的url</td>
 </tr>
@@ -474,7 +512,8 @@
 <td>String getMethod();</td>
 <td>获取请求方式</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <ul>
 <li>获得请求头信息相关</li>
 </ul>
@@ -485,7 +524,8 @@
 <th>功能解释</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>String getHeader(String headerName);</td>
 <td>根据头名称获取请求头</td>
 </tr>
@@ -497,7 +537,8 @@
 <td>String getContentType();</td>
 <td>获取content-type请求头</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <ul>
 <li>获得请求参数相关</li>
 </ul>
@@ -508,7 +549,8 @@
 <th>功能解释</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>String getParameter(String parameterName);</td>
 <td>根据请求参数名获取请求单个参数值</td>
 </tr>
@@ -536,7 +578,8 @@
 <td>int getContentLength();</td>
 <td>获得请求体长度的字节数</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <ul>
 <li>其他API</li>
 </ul>
@@ -547,7 +590,8 @@
 <th>功能解释</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>String getServletPath();</td>
 <td>获取请求的Servlet的映射路径</td>
 </tr>
@@ -567,8 +611,10 @@
 <td>void setCharacterEncoding(String encoding) ;</td>
 <td>设置请求体字符集</td>
 </tr>
-</tbody></table>
-<h1 id="HttpServletResponse"><a href="#HttpServletResponse" class="headerlink" title="HttpServletResponse"></a>HttpServletResponse</h1><blockquote>
+</tbody>
+</table>
+<h1>HttpServletResponse</h1>
+<blockquote>
 <p>HttpServletResponse是什么</p>
 </blockquote>
 <ul>
@@ -589,11 +635,13 @@
 <th>功能解释</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>void setStatus(int  code);</td>
 <td>设置响应状态码</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <ul>
 <li>设置响应头相关</li>
 </ul>
@@ -604,15 +652,17 @@
 <th>功能解释</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>void setHeader(String headerName, String headerValue);</td>
-<td>设置&#x2F;修改响应头键值对</td>
+<td>设置/修改响应头键值对</td>
 </tr>
 <tr>
 <td>void setContentType(String contentType);</td>
 <td>设置content-type响应头及响应字符集(设置MIME类型)</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <ul>
 <li>设置响应体相关（字节流与字符流只能得到其中一个）</li>
 </ul>
@@ -623,7 +673,8 @@
 <th>功能解释</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>PrintWriter <strong>getWriter()</strong> throws IOException;</td>
 <td>获得向响应体放入信息的字符输出流，回传字符串（常用）</td>
 </tr>
@@ -635,7 +686,8 @@
 <td>void setContentLength(int length);</td>
 <td>设置响应体的字节长度,其实就是在设置content-length响应头</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <ul>
 <li>其他API</li>
 </ul>
@@ -646,7 +698,8 @@
 <th>功能解释</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>void sendError(int code, String message) throws IOException;</td>
 <td>向客户端响应错误信息的方法,需要指定响应码和响应信息</td>
 </tr>
@@ -658,15 +711,16 @@
 <td>void setCharacterEncoding(String encoding);</td>
 <td>设置响应体字符集</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <blockquote>
 <p>MIME类型</p>
 </blockquote>
 <ul>
 <li>MIME类型,可以理解为文档类型,用户表示传递的数据是属于什么类型的文档</li>
 <li>浏览器可以根据MIME类型决定该用什么样的方式解析接收到的响应体数据</li>
-<li>可以这样理解: 前后端交互数据时,告诉对方发给对方的是 html&#x2F;css&#x2F;js&#x2F;图片&#x2F;声音&#x2F;视频&#x2F;… …</li>
-<li>tomcat&#x2F;conf&#x2F;web.xml中配置了常见文件的拓展名和MIMIE类型的对应关系</li>
+<li>可以这样理解: 前后端交互数据时,告诉对方发给对方的是 html/css/js/图片/声音/视频/… …</li>
+<li>tomcat/conf/web.xml中配置了常见文件的拓展名和MIMIE类型的对应关系</li>
 <li>常见的MIME类型举例如下</li>
 </ul>
 <table>
@@ -676,150 +730,180 @@
 <th>MIME类型</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>.html</td>
-<td>text&#x2F;html</td>
+<td>text/html</td>
 </tr>
 <tr>
 <td>.css</td>
-<td>text&#x2F;css</td>
+<td>text/css</td>
 </tr>
 <tr>
 <td>.js</td>
-<td>application&#x2F;javascript</td>
+<td>application/javascript</td>
 </tr>
 <tr>
-<td>.png &#x2F;.jpeg&#x2F;.jpg&#x2F;… …</td>
-<td>image&#x2F;jpeg</td>
+<td>.png /.jpeg/.jpg/… …</td>
+<td>image/jpeg</td>
 </tr>
 <tr>
-<td>.mp3&#x2F;.mpe&#x2F;.mpeg&#x2F; … …</td>
-<td>audio&#x2F;mpeg</td>
+<td>.mp3/.mpe/.mpeg/ … …</td>
+<td>audio/mpeg</td>
 </tr>
 <tr>
 <td>.mp4</td>
-<td>video&#x2F;mp4</td>
+<td>video/mp4</td>
 </tr>
 <tr>
-<td>.m1v&#x2F;.m1v&#x2F;.m2v&#x2F;.mpe&#x2F;… …</td>
-<td>video&#x2F;mpeg</td>
+<td>.m1v/.m1v/.m2v/.mpe/… …</td>
+<td>video/mpeg</td>
 </tr>
-</tbody></table>
-<h1 id="请求转发和响应重定向"><a href="#请求转发和响应重定向" class="headerlink" title="请求转发和响应重定向"></a>请求转发和响应重定向</h1><blockquote>
+</tbody>
+</table>
+<h1>请求转发和响应重定向</h1>
+<blockquote>
 <p>什么是请求转发和响应重定向</p>
 </blockquote>
 <ul>
-<li><p>请求转发和响应重定向是web应用中间接访问项目资源的两种手段,也是Servlet控制页面跳转的两种手段</p>
+<li>
+<p>请求转发和响应重定向是web应用中间接访问项目资源的两种手段,也是Servlet控制页面跳转的两种手段</p>
 </li>
-<li><p>请求转发通过HttpServletRequest实现,响应重定向通过HttpServletResponse实现</p>
+<li>
+<p>请求转发通过HttpServletRequest实现,响应重定向通过HttpServletResponse实现</p>
 </li>
-<li><p>请求转发生活举例: 张三找李四借钱,李四没有,李四找王五,让王五借给张三</p>
+<li>
+<p>请求转发生活举例: 张三找李四借钱,李四没有,李四找王五,让王五借给张三</p>
 </li>
-<li><p>响应重定向生活举例:张三找李四借钱,李四没有,李四让张三去找王五,张三自己再去找王五借钱</p>
+<li>
+<p>响应重定向生活举例:张三找李四借钱,李四没有,李四让张三去找王五,张三自己再去找王五借钱</p>
 </li>
 </ul>
-<h2 id="请求转发"><a href="#请求转发" class="headerlink" title="请求转发"></a>请求转发</h2><p><img src="/img/JavaWeb/%E8%AF%B7%E6%B1%82%E8%BD%AC%E5%8F%91.png" alt="请求转发"></p>
+<h2 id="请求转发">请求转发</h2>
+<p><img src="/img/JavaWeb/%E8%AF%B7%E6%B1%82%E8%BD%AC%E5%8F%91.png" alt="请求转发"></p>
 <blockquote>
 <p>请求转发特点(背诵)</p>
 </blockquote>
 <ul>
-<li><p>请求转发通过HttpServletRequest对象获取请求转发器实现</p>
+<li>
+<p>请求转发通过HttpServletRequest对象获取请求转发器实现</p>
 </li>
-<li><p>请求转发是服务器内部的行为,对客户端是屏蔽的</p>
+<li>
+<p>请求转发是服务器内部的行为,对客户端是屏蔽的</p>
 </li>
-<li><p>客户端只发送了一次请求,客户端地址栏不变</p>
+<li>
+<p>客户端只发送了一次请求,客户端地址栏不变</p>
 </li>
-<li><p>服务端只产生了一对请求和响应对象,这一对请求和响应对象会继续传递给下一个资源</p>
+<li>
+<p>服务端只产生了一对请求和响应对象,这一对请求和响应对象会继续传递给下一个资源</p>
 </li>
-<li><p>因为全程只有一个HttpServletRequset对象,所以请求参数可以传递,请求域中的数据也可以传递</p>
+<li>
+<p>因为全程只有一个HttpServletRequset对象,所以请求参数可以传递,请求域中的数据也可以传递</p>
 </li>
-<li><p>请求转发可以转发给其他Servlet动态资源,也可以转发给一些静态资源以实现页面跳转</p>
+<li>
+<p>请求转发可以转发给其他Servlet动态资源,也可以转发给一些静态资源以实现页面跳转</p>
 </li>
-<li><p>请求转发可以转发给WEB-INF下受保护的资源</p>
+<li>
+<p>请求转发可以转发给WEB-INF下受保护的资源</p>
 </li>
-<li><p>请求转发不能转发到本项目以外的外部资源</p>
+<li>
+<p>请求转发不能转发到本项目以外的外部资源</p>
 </li>
-<li><p>ServletA</p>
+<li>
+<p>ServletA</p>
 </li>
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@WebServlet(&quot;/servletA&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ServletA</span> <span class="keyword">extends</span> <span class="title class_">HttpServlet</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">void</span> <span class="title function_">service</span><span class="params">(HttpServletRequest req, HttpServletResponse resp)</span> <span class="keyword">throws</span> ServletException, IOException &#123;</span><br><span class="line">        <span class="comment">//  获取请求转发器</span></span><br><span class="line">        <span class="comment">//  转发给servlet  ok</span></span><br><span class="line">        <span class="type">RequestDispatcher</span>  <span class="variable">requestDispatcher</span> <span class="operator">=</span> req.getRequestDispatcher(<span class="string">&quot;servletB&quot;</span>);</span><br><span class="line">        <span class="comment">//  转发给一个视图资源 ok</span></span><br><span class="line">        <span class="comment">//RequestDispatcher requestDispatcher = req.getRequestDispatcher(&quot;welcome.html&quot;);</span></span><br><span class="line">        <span class="comment">//  转发给WEB-INF下的资源  ok</span></span><br><span class="line">        <span class="comment">//RequestDispatcher requestDispatcher = req.getRequestDispatcher(&quot;WEB-INF/views/view1.html&quot;);</span></span><br><span class="line">        <span class="comment">//  转发给外部资源   no</span></span><br><span class="line">        <span class="comment">//RequestDispatcher requestDispatcher = req.getRequestDispatcher(&quot;http://www.atguigu.com&quot;);</span></span><br><span class="line">        <span class="comment">//  获取请求参数</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">username</span> <span class="operator">=</span> req.getParameter(<span class="string">&quot;username&quot;</span>);</span><br><span class="line">        System.out.println(username);</span><br><span class="line">        <span class="comment">//  向请求域中添加数据</span></span><br><span class="line">        req.setAttribute(<span class="string">&quot;reqKey&quot;</span>,<span class="string">&quot;requestMessage&quot;</span>);</span><br><span class="line">        <span class="comment">//  做出转发动作</span></span><br><span class="line">        requestDispatcher.forward(req,resp);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
 <ul>
 <li>ServletB</li>
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@WebServlet(&quot;/servletB&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ServletB</span> <span class="keyword">extends</span> <span class="title class_">HttpServlet</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">void</span> <span class="title function_">service</span><span class="params">(HttpServletRequest req, HttpServletResponse resp)</span> <span class="keyword">throws</span> ServletException, IOException &#123;</span><br><span class="line">        <span class="comment">// 获取请求参数</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">username</span> <span class="operator">=</span> req.getParameter(<span class="string">&quot;username&quot;</span>);</span><br><span class="line">        System.out.println(username);</span><br><span class="line">        <span class="comment">// 获取请求域中的数据</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">reqMessage</span> <span class="operator">=</span> (String)req.getAttribute(<span class="string">&quot;reqKey&quot;</span>);</span><br><span class="line">        System.out.println(reqMessage);</span><br><span class="line">        <span class="comment">// 做出响应</span></span><br><span class="line">        resp.getWriter().write(<span class="string">&quot;servletB response&quot;</span>);        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="响应重定向（要实现页面跳转，优先使用）"><a href="#响应重定向（要实现页面跳转，优先使用）" class="headerlink" title="响应重定向（要实现页面跳转，优先使用）"></a>响应重定向（要实现页面跳转，优先使用）</h2><p><img src="/img/JavaWeb/%E5%93%8D%E5%BA%94%E9%87%8D%E5%AE%9A%E5%90%91.png" alt="响应重定向"></p>
+<h2 id="响应重定向（要实现页面跳转，优先使用）">响应重定向（要实现页面跳转，优先使用）</h2>
+<p><img src="/img/JavaWeb/%E5%93%8D%E5%BA%94%E9%87%8D%E5%AE%9A%E5%90%91.png" alt="响应重定向"></p>
 <blockquote>
 <p>响应重定向特点(背诵)</p>
 </blockquote>
 <ul>
-<li><p>响应重定向通过HttpServletResponse对象的sendRedirect方法实现</p>
+<li>
+<p>响应重定向通过HttpServletResponse对象的sendRedirect方法实现</p>
 </li>
-<li><p>响应重定向是服务端通过<strong>302响应码</strong>和路径,告诉客户端自己去找其他资源,是在服务端提示下的,客户端的行为</p>
+<li>
+<p>响应重定向是服务端通过<strong>302响应码</strong>和路径,告诉客户端自己去找其他资源,是在服务端提示下的,客户端的行为</p>
 </li>
-<li><p>客户端至少发送了两次请求,客户端地址栏是要变化的</p>
+<li>
+<p>客户端至少发送了两次请求,客户端地址栏是要变化的</p>
 </li>
-<li><p>服务端产生了多对请求和响应对象,且请求和响应对象不会传递给下一个资源</p>
+<li>
+<p>服务端产生了多对请求和响应对象,且请求和响应对象不会传递给下一个资源</p>
 </li>
-<li><p>因为全程产生了多个HttpServletRequset对象,所以请求参数不可以传递,请求域中的数据也不可以传递</p>
+<li>
+<p>因为全程产生了多个HttpServletRequset对象,所以请求参数不可以传递,请求域中的数据也不可以传递</p>
 </li>
-<li><p>重定向可以是其他Servlet动态资源,也可以是一些静态资源以实现页面跳转</p>
+<li>
+<p>重定向可以是其他Servlet动态资源,也可以是一些静态资源以实现页面跳转</p>
 </li>
-<li><p>重定向不可以到给WEB-INF下受保护的资源（因为请求由客户端发出而非服务端）</p>
+<li>
+<p>重定向不可以到给WEB-INF下受保护的资源（因为请求由客户端发出而非服务端）</p>
 </li>
-<li><p>重定向可以到本项目以外的外部资源</p>
+<li>
+<p>重定向可以到本项目以外的外部资源</p>
 </li>
-<li><p>ServletA</p>
+<li>
+<p>ServletA</p>
 </li>
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@WebServlet(&quot;/servletA&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ServletA</span> <span class="keyword">extends</span> <span class="title class_">HttpServlet</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">void</span> <span class="title function_">service</span><span class="params">(HttpServletRequest req, HttpServletResponse resp)</span> <span class="keyword">throws</span> ServletException, IOException &#123;</span><br><span class="line">        <span class="comment">//  获取请求参数</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">username</span> <span class="operator">=</span> req.getParameter(<span class="string">&quot;username&quot;</span>);</span><br><span class="line">        System.out.println(username);</span><br><span class="line">        <span class="comment">//  向请求域中添加数据</span></span><br><span class="line">        req.setAttribute(<span class="string">&quot;reqKey&quot;</span>,<span class="string">&quot;requestMessage&quot;</span>);</span><br><span class="line">        <span class="comment">//  响应重定向</span></span><br><span class="line">        <span class="comment">// 重定向到servlet动态资源 OK</span></span><br><span class="line">        resp.sendRedirect(<span class="string">&quot;servletB&quot;</span>);</span><br><span class="line">        <span class="comment">// 重定向到视图静态资源 OK</span></span><br><span class="line">        <span class="comment">//resp.sendRedirect(&quot;welcome.html&quot;);</span></span><br><span class="line">        <span class="comment">// 重定向到WEB-INF下的资源 NO</span></span><br><span class="line">        <span class="comment">//resp.sendRedirect(&quot;WEB-INF/views/view1&quot;);</span></span><br><span class="line">        <span class="comment">// 重定向到外部资源</span></span><br><span class="line">        <span class="comment">//resp.sendRedirect(&quot;http://www.atguigu.com&quot;);</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 <ul>
 <li>ServletB</li>
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@WebServlet(&quot;/servletB&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ServletB</span> <span class="keyword">extends</span> <span class="title class_">HttpServlet</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">void</span> <span class="title function_">service</span><span class="params">(HttpServletRequest req, HttpServletResponse resp)</span> <span class="keyword">throws</span> ServletException, IOException &#123;</span><br><span class="line">        <span class="comment">// 获取请求参数</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">username</span> <span class="operator">=</span> req.getParameter(<span class="string">&quot;username&quot;</span>);</span><br><span class="line">        System.out.println(username);</span><br><span class="line">        <span class="comment">// 获取请求域中的数据</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">reqMessage</span> <span class="operator">=</span> (String)req.getAttribute(<span class="string">&quot;reqKey&quot;</span>);</span><br><span class="line">        System.out.println(reqMessage);</span><br><span class="line">        <span class="comment">// 做出响应</span></span><br><span class="line">        resp.getWriter().write(<span class="string">&quot;servletB response&quot;</span>);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h1 id="附录：Web乱码和路径问题"><a href="#附录：Web乱码和路径问题" class="headerlink" title="附录：Web乱码和路径问题"></a>附录：Web乱码和路径问题</h1><h2 id="乱码问题"><a href="#乱码问题" class="headerlink" title="乱码问题"></a>乱码问题</h2><ul>
-<li><p>根本原因：</p>
+<h1>附录：Web乱码和路径问题</h1>
+<h2 id="乱码问题">乱码问题</h2>
+<ul>
+<li>
+<p>根本原因：</p>
 <ul>
 <li>数据的编码和解码使用的不是同一个字符集</li>
 <li>使用了不支持某个语言文字的字符集</li>
 </ul>
 </li>
-<li><p>各个字符集的兼容性：</p>
+<li>
+<p>各个字符集的兼容性：</p>
 <p><img src="/img/JavaWeb/%E5%90%84%E4%B8%AA%E5%AD%97%E7%AC%A6%E9%9B%86%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7.png" alt="各个字符集的兼容性"></p>
 </li>
 </ul>
-<h3 id="Tomcat控制台乱码"><a href="#Tomcat控制台乱码" class="headerlink" title="Tomcat控制台乱码"></a>Tomcat控制台乱码</h3><ul>
-<li>修改 tomcat&#x2F;conf&#x2F;logging.properties中,所有的UTF-8为GBK即可</li>
+<h3 id="Tomcat控制台乱码">Tomcat控制台乱码</h3>
+<ul>
+<li>修改 tomcat/conf/logging.properties中,所有的UTF-8为GBK即可</li>
 </ul>
 <p><img src="/img/JavaWeb/Tomcat%E4%B9%B1%E7%A0%81%E8%A7%A3%E5%86%B3.png" alt="Tomcat乱码解决"></p>
-<h3 id="HTML乱码问题"><a href="#HTML乱码问题" class="headerlink" title="HTML乱码问题"></a>HTML乱码问题</h3><ul>
+<h3 id="HTML乱码问题">HTML乱码问题</h3>
+<ul>
 <li>设置项目文件的字符集要使用一个支持中文的字符集</li>
 </ul>
-<h3 id="请求乱码问题"><a href="#请求乱码问题" class="headerlink" title="请求乱码问题"></a>请求乱码问题</h3><h4 id="Get方式请求乱码"><a href="#Get方式请求乱码" class="headerlink" title="Get方式请求乱码"></a>Get方式请求乱码</h4><ul>
+<h3 id="请求乱码问题">请求乱码问题</h3>
+<h4 id="Get方式请求乱码">Get方式请求乱码</h4>
+<ul>
 <li>GET方式提交参数的方式是将参数放到URL后面,如果使用的不是UTF-8,那么会对参数进行URL编码处理</li>
 <li>HTML中的 <meta charset='字符集'/> 影响了GET方式提交参数的URL编码</li>
 <li>tomcat的URI编码默认为 UTF-8</li>
 <li>当GET方式提交的参数URL编码和tomcat默认的URI编码不一致时,就会出现乱码</li>
 <li>设置GET方式提交的编码和Tomcat的URI默认解析编码一致即可</li>
 </ul>
-<h4 id="Post方式请求乱码"><a href="#Post方式请求乱码" class="headerlink" title="Post方式请求乱码"></a>Post方式请求乱码</h4><ul>
+<h4 id="Post方式请求乱码">Post方式请求乱码</h4>
+<ul>
 <li>POST请求将参数放在请求体中进行发送</li>
 <li>请求体使用的字符集受到了<meta charset="字符集"/> 的影响</li>
 <li>Tomcat默认使用UTF-8字符集对请求体进行解析</li>
 <li>如果请求体的URL转码和Tomcat的请求体解析编码不一致,就容易出现乱码</li>
 <li>请求时,使用UTF-8字符集提交请求体</li>
 </ul>
-<h3 id="响应乱码问题"><a href="#响应乱码问题" class="headerlink" title="响应乱码问题"></a>响应乱码问题</h3><ul>
+<h3 id="响应乱码问题">响应乱码问题</h3>
+<ul>
 <li>在Tomcat中,向响应体中放入的数据默认使用了工程编码 UTF-8</li>
 <li>浏览器在接收响应信息时,使用了不同的字符集或者是不支持中文的字符集就会出现乱码</li>
-<li>在Tomcat10.1.7中,向响应体中放入的数据默认使用了工程编码 UTF-8<ul>
+<li>在Tomcat10.1.7中,向响应体中放入的数据默认使用了工程编码 UTF-8
+<ul>
 <li>浏览器在接收响应信息时,使用了不同的字符集或者是不支持中文的字符集就会出现乱码</li>
 </ul>
 </li>
@@ -827,58 +911,67 @@
 <ul>
 <li>通过设置content-type响应头,告诉浏览器以指定的字符集解析响应体</li>
 </ul>
-<h2 id="路径问题"><a href="#路径问题" class="headerlink" title="路径问题"></a>路径问题</h2><blockquote>
+<h2 id="路径问题">路径问题</h2>
+<blockquote>
 <p>相对路径和绝对路径</p>
 </blockquote>
 <ul>
-<li><p>相对路径</p>
+<li>
+<p>相对路径</p>
 <ul>
 <li>相对路径的规则是: 以当前资源所在的路径为出发点去寻找目标资源</li>
-<li>相对路径不以 &#x2F; 开头</li>
+<li>相对路径不以 / 开头</li>
 <li>在file协议下,使用的是磁盘路径</li>
 <li>在http协议下,使用的是url路径</li>
-<li>相对路径中可以使用 .&#x2F;表示当前资源所在路径,可以省略不写</li>
-<li>相对路径中可以使用..&#x2F;表示当前资源所在路径的上一层路径,需要时要手动添加</li>
+<li>相对路径中可以使用 ./表示当前资源所在路径,可以省略不写</li>
+<li>相对路径中可以使用…/表示当前资源所在路径的上一层路径,需要时要手动添加</li>
 </ul>
 </li>
-<li><p>绝对路径</p>
+<li>
+<p>绝对路径</p>
 <ul>
 <li>绝对路径的规则是: 使用以一个固定的路径做出出发点去寻找目标资源,和当前资源所在的路径没有关系</li>
-<li>绝对路径要以&#x2F; 开头</li>
-<li>绝对路径的写法中,不以当前资源的所在路径为出发点,所以不会出现  .&#x2F; 和..&#x2F;</li>
+<li>绝对路径要以/ 开头</li>
+<li>绝对路径的写法中,不以当前资源的所在路径为出发点,所以不会出现  ./ 和…/</li>
 <li>不同的项目和不同的协议下,绝对路径的基础位置可能不同,要通过测试确定</li>
 <li>绝对路径的好处就是:无论当前资源位置在哪,寻找目标资源路径的写法都一致</li>
 </ul>
 </li>
-<li><p>应用场景</p>
+<li>
+<p>应用场景</p>
 <ol>
 <li>前端代码中,href src action 等属性</li>
 <li>请求转发和重定向中的路径</li>
 </ol>
 </li>
 </ul>
-<h3 id="的不同意义"><a href="#的不同意义" class="headerlink" title="/的不同意义"></a><code>/</code>的不同意义</h3><ul>
+<h3 id="的不同意义"><code>/</code>的不同意义</h3>
+<ul>
 <li>Web中，斜杠是一种绝对路径</li>
 <li><code>/</code>斜杠如果被浏览器解析，得到的地址是<code>http://ip:port/</code></li>
 <li>被服务器解析，得到的地址是<code>http://ip:port/工程路径</code></li>
 </ul>
-<h1 id="附录：MVC架构模式"><a href="#附录：MVC架构模式" class="headerlink" title="附录：MVC架构模式"></a>附录：MVC架构模式</h1><blockquote>
-<p> MVC（Model View Controller）是软件工程中的一种**<code>软件架构模式</code><strong>，它把软件系统分为</strong><code>模型</code><strong>、</strong><code>视图</code><strong>和</strong><code>控制器</code>**三个基本部分。用一种业务逻辑、数据、界面显示分离的方法组织代码，将业务逻辑聚集到一个部件里面，在改进和个性化定制界面及用户交互的同时，不需要重新编写业务逻辑。</p>
+<h1>附录：MVC架构模式</h1>
+<blockquote>
+<p>MVC（Model View Controller）是软件工程中的一种**<code>软件架构模式</code><strong>，它把软件系统分为</strong><code>模型</code><strong>、</strong><code>视图</code><strong>和</strong><code>控制器</code>**三个基本部分。用一种业务逻辑、数据、界面显示分离的方法组织代码，将业务逻辑聚集到一个部件里面，在改进和个性化定制界面及用户交互的同时，不需要重新编写业务逻辑。</p>
 </blockquote>
 <ul>
-<li><p><strong>M</strong>：Model 模型层,具体功能如下</p>
+<li>
+<p><strong>M</strong>：Model 模型层,具体功能如下</p>
 <ol>
 <li>存放和数据库对象的实体类以及一些用于存储非数据库表完整相关的VO对象</li>
 <li>存放一些对数据进行逻辑运算操作的的一些业务处理代码</li>
 </ol>
 </li>
-<li><p><strong>V</strong>：View 视图层,具体功能如下</p>
+<li>
+<p><strong>V</strong>：View 视图层,具体功能如下</p>
 <ol>
 <li>存放一些视图文件相关的代码 html css js等</li>
 <li>在前后端分离的项目中,后端已经没有视图文件,该层次已经衍化成独立的前端项目</li>
 </ol>
 </li>
-<li><p><strong>C</strong>：Controller 控制层,具体功能如下</p>
+<li>
+<p><strong>C</strong>：Controller 控制层,具体功能如下</p>
 <ol>
 <li>接收客户端请求,获得请求数据</li>
 <li>将准备好的数据响应给客户端</li>
@@ -889,19 +982,22 @@
 <p>MVC模式下,项目中的常见包</p>
 </blockquote>
 <ul>
-<li><p>M:</p>
+<li>
+<p>M:</p>
 <ol>
-<li>实体类包(pojo &#x2F;entity &#x2F;bean) 专门存放和数据库对应的实体类和一些VO对象</li>
-<li>数据库访问包(dao&#x2F;mapper)  专门存放对数据库不同表格CURD方法封装的一些类</li>
+<li>实体类包(pojo /entity /bean) 专门存放和数据库对应的实体类和一些VO对象</li>
+<li>数据库访问包(dao/mapper)  专门存放对数据库不同表格CURD方法封装的一些类</li>
 <li>服务包(service)                       专门存放对数据进行业务逻辑运算的一些类</li>
 </ol>
 </li>
-<li><p>C:</p>
+<li>
+<p>C:</p>
 <ol>
 <li>控制层包(controller)</li>
 </ol>
 </li>
-<li><p>V:</p>
+<li>
+<p>V:</p>
 <ol>
 <li>web目录下的视图资源 html css js img 等</li>
 <li>前端工程化后,在后端项目中已经不存在了</li>
@@ -912,7 +1008,7 @@
 <p><img src="/img/JavaWeb/%E9%9D%9E%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E7%9A%84MVC.png" alt="非前后端分离的MVC"></p>
 <p><strong>前后端分离的MVC</strong>：</p>
 <p><img src="/img/JavaWeb/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E7%9A%84MVC.png" alt="前后端分离的MVC"></p>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">ClorisHerZeN</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2024/10/07/Servlet/">http://example.com/2024/10/07/Servlet/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">机器人在吹萨克斯</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/JavaWeb/">JavaWeb</a></div><div class="post_share"><div class="social-share" data-image="/img/JavaWeb/Servlet%E5%B0%81%E9%9D%A21.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/10/08/%E8%BF%87%E6%BB%A4%E5%99%A8%E4%B8%8E%E7%9B%91%E5%90%AC%E5%99%A8/" title="过滤器与监听器"><img class="cover" src="/img/JavaWeb/%E8%BF%87%E6%BB%A4%E5%99%A8%E5%B7%A5%E4%BD%9C%E4%BD%8D%E7%BD%AE.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">过滤器与监听器</div></div></a></div><div class="next-post pull-right"><a href="/2024/10/06/%E6%95%B0%E7%BB%84%E3%80%81%E9%93%BE%E8%A1%A8%E4%B8%8E%E9%80%92%E5%BD%92/" title="数组、链表与递归"><img class="cover" src="/img/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E9%80%92%E5%BD%92%E5%B0%81%E9%9D%A2.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">数组、链表与递归</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2024/10/13/JSP%E3%80%81EL%E4%B8%8EJSTL/" title="JSP、EL与JSTL"><img class="cover" src="/img/JavaWeb/JSP%E5%B0%81%E9%9D%A2.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-13</div><div class="title">JSP、EL与JSTL</div></div></a></div><div><a href="/2024/10/12/JavaWeb%E5%85%A5%E9%97%A8/" title="JavaWeb入门"><img class="cover" src="/img/JavaWeb/JavaWeb%E5%85%A5%E9%97%A8%E5%B0%81%E9%9D%A2.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-12</div><div class="title">JavaWeb入门</div></div></a></div><div><a href="/2024/10/04/JavaWeb%E5%BC%80%E5%8F%91%C2%B7Maven/" title="JavaWeb开发·Maven"><img class="cover" src="/img/JavaWeb/Maven%E5%B0%81%E9%9D%A2.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-04</div><div class="title">JavaWeb开发·Maven</div></div></a></div><div><a href="/2024/10/08/%E4%BC%9A%E8%AF%9D/" title="会话"><img class="cover" src="/img/JavaWeb/cookie%E5%8E%9F%E7%90%86%E5%9B%BE.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-08</div><div class="title">会话</div></div></a></div><div><a href="/2024/10/08/%E8%BF%87%E6%BB%A4%E5%99%A8%E4%B8%8E%E7%9B%91%E5%90%AC%E5%99%A8/" title="过滤器与监听器"><img class="cover" src="/img/JavaWeb/%E8%BF%87%E6%BB%A4%E5%99%A8%E5%B7%A5%E4%BD%9C%E4%BD%8D%E7%BD%AE.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-08</div><div class="title">过滤器与监听器</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">ClorisHerZeN</div><div class="author-info__description">I make my own luck.</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">58</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/CLorisHerZeN" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到 机器人在吹萨克斯，这是一个记录学习生活的博客！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AE%80%E4%BB%8B"><span class="toc-number">1.</span> <span class="toc-text">简介</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Servlet%E7%AE%80%E4%BB%8B"><span class="toc-number">1.1.</span> <span class="toc-text">Servlet简介</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BF%90%E8%A1%8C%E4%B8%8E%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B"><span class="toc-number">2.</span> <span class="toc-text">运行与开发流程</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8IDEA%E5%88%9B%E5%BB%BAServlet%E7%A8%8B%E5%BA%8F"><span class="toc-number">2.1.</span> <span class="toc-text">使用IDEA创建Servlet程序</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Servlet%E6%B3%A8%E8%A7%A3%E6%96%B9%E5%BC%8F%E9%85%8D%E7%BD%AE"><span class="toc-number">3.</span> <span class="toc-text">Servlet注解方式配置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#WebServlet%E6%B3%A8%E8%A7%A3%E4%BD%BF%E7%94%A8"><span class="toc-number">3.1.</span> <span class="toc-text">@WebServlet注解使用</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Servlet%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F"><span class="toc-number">4.</span> <span class="toc-text">Servlet生命周期</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Servlet%E4%B8%BB%E8%A6%81%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E6%89%A7%E8%A1%8C%E7%89%B9%E7%82%B9"><span class="toc-number">4.1.</span> <span class="toc-text">Servlet主要的生命周期执行特点</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Servlet%E7%BB%A7%E6%89%BF%E7%BB%93%E6%9E%84"><span class="toc-number">5.</span> <span class="toc-text">Servlet继承结构</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Servlet%E6%8E%A5%E5%8F%A3"><span class="toc-number">5.1.</span> <span class="toc-text">Servlet接口</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#GenericServlet-%E6%8A%BD%E8%B1%A1%E7%B1%BB"><span class="toc-number">5.2.</span> <span class="toc-text">GenericServlet 抽象类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#HttpServlet-%E6%8A%BD%E8%B1%A1%E7%B1%BB"><span class="toc-number">5.3.</span> <span class="toc-text">HttpServlet 抽象类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89Servlet"><span class="toc-number">5.4.</span> <span class="toc-text">自定义Servlet</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#ServletConfig%E7%B1%BB%E5%92%8CServletContext%E7%B1%BB"><span class="toc-number">6.</span> <span class="toc-text">ServletConfig类和ServletContext类</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#ServletConfig%E7%9A%84%E4%BD%BF%E7%94%A8%EF%BC%88%E4%BA%86%E8%A7%A3%EF%BC%89"><span class="toc-number">6.1.</span> <span class="toc-text">ServletConfig的使用（了解）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ServletContext%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-number">6.2.</span> <span class="toc-text">ServletContext的使用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ServletContext%E5%85%B6%E4%BB%96%E9%87%8D%E8%A6%81API"><span class="toc-number">6.2.1.</span> <span class="toc-text">ServletContext其他重要API</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#HttpServletRequest"><span class="toc-number">7.</span> <span class="toc-text">HttpServletRequest</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#HttpServletResponse"><span class="toc-number">8.</span> <span class="toc-text">HttpServletResponse</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AF%B7%E6%B1%82%E8%BD%AC%E5%8F%91%E5%92%8C%E5%93%8D%E5%BA%94%E9%87%8D%E5%AE%9A%E5%90%91"><span class="toc-number">9.</span> <span class="toc-text">请求转发和响应重定向</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%B7%E6%B1%82%E8%BD%AC%E5%8F%91"><span class="toc-number">9.1.</span> <span class="toc-text">请求转发</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%93%8D%E5%BA%94%E9%87%8D%E5%AE%9A%E5%90%91%EF%BC%88%E8%A6%81%E5%AE%9E%E7%8E%B0%E9%A1%B5%E9%9D%A2%E8%B7%B3%E8%BD%AC%EF%BC%8C%E4%BC%98%E5%85%88%E4%BD%BF%E7%94%A8%EF%BC%89"><span class="toc-number">9.2.</span> <span class="toc-text">响应重定向（要实现页面跳转，优先使用）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%99%84%E5%BD%95%EF%BC%9AWeb%E4%B9%B1%E7%A0%81%E5%92%8C%E8%B7%AF%E5%BE%84%E9%97%AE%E9%A2%98"><span class="toc-number">10.</span> <span class="toc-text">附录：Web乱码和路径问题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98"><span class="toc-number">10.1.</span> <span class="toc-text">乱码问题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Tomcat%E6%8E%A7%E5%88%B6%E5%8F%B0%E4%B9%B1%E7%A0%81"><span class="toc-number">10.1.1.</span> <span class="toc-text">Tomcat控制台乱码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HTML%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98"><span class="toc-number">10.1.2.</span> <span class="toc-text">HTML乱码问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%B7%E6%B1%82%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98"><span class="toc-number">10.1.3.</span> <span class="toc-text">请求乱码问题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Get%E6%96%B9%E5%BC%8F%E8%AF%B7%E6%B1%82%E4%B9%B1%E7%A0%81"><span class="toc-number">10.1.3.1.</span> <span class="toc-text">Get方式请求乱码</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Post%E6%96%B9%E5%BC%8F%E8%AF%B7%E6%B1%82%E4%B9%B1%E7%A0%81"><span class="toc-number">10.1.3.2.</span> <span class="toc-text">Post方式请求乱码</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%8D%E5%BA%94%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98"><span class="toc-number">10.1.4.</span> <span class="toc-text">响应乱码问题</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B7%AF%E5%BE%84%E9%97%AE%E9%A2%98"><span class="toc-number">10.2.</span> <span class="toc-text">路径问题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9A%84%E4%B8%8D%E5%90%8C%E6%84%8F%E4%B9%89"><span class="toc-number">10.2.1.</span> <span class="toc-text">&#x2F;的不同意义</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%99%84%E5%BD%95%EF%BC%9AMVC%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%BC%8F"><span class="toc-number">11.</span> <span class="toc-text">附录：MVC架构模式</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/10/31/SpringBoot%C2%B7%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD/" title="SpringBoot·核心功能"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·核心功能"/></a><div class="content"><a class="title" href="/2024/10/31/SpringBoot%C2%B7%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD/" title="SpringBoot·核心功能">SpringBoot·核心功能</a><time datetime="2024-10-30T16:00:00.000Z" title="发表于 2024-10-31 00:00:00">2024-10-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/10/31/springBoot%C2%B7%E6%95%B0%E6%8D%AE%E8%AE%BF%E9%97%AE%E3%80%81%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%87%E6%A0%87%E7%9B%91%E6%8E%A7/" title="SpringBoot·数据访问、单元测试与指标监控"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·数据访问、单元测试与指标监控"/></a><div class="content"><a class="title" href="/2024/10/31/springBoot%C2%B7%E6%95%B0%E6%8D%AE%E8%AE%BF%E9%97%AE%E3%80%81%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%87%E6%A0%87%E7%9B%91%E6%8E%A7/" title="SpringBoot·数据访问、单元测试与指标监控">SpringBoot·数据访问、单元测试与指标监控</a><time datetime="2024-10-30T16:00:00.000Z" title="发表于 2024-10-31 00:00:00">2024-10-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/10/28/SpringBoot%C2%B7%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/" title="SpringBoot·基础入门"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·基础入门"/></a><div class="content"><a class="title" href="/2024/10/28/SpringBoot%C2%B7%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/" title="SpringBoot·基础入门">SpringBoot·基础入门</a><time datetime="2024-10-27T16:00:00.000Z" title="发表于 2024-10-28 00:00:00">2024-10-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/10/25/%E5%93%88%E5%B8%8C%E8%A1%A8/" title="哈希表"><img src="/img/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%93%88%E5%B8%8C%E8%A1%A8%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="哈希表"/></a><div class="content"><a class="title" href="/2024/10/25/%E5%93%88%E5%B8%8C%E8%A1%A8/" title="哈希表">哈希表</a><time datetime="2024-10-24T16:00:00.000Z" title="发表于 2024-10-25 00:00:00">2024-10-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/10/24/MyBatis%C2%B7%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E3%80%81%E8%BF%90%E8%A1%8C%E5%8E%9F%E7%90%86%E3%80%81%E6%8F%92%E4%BB%B6/" title="MyBatis·逆向工程、运行原理、插件"><img src="/img/JavaWeb/MyBatis%E5%B0%81%E9%9D%A2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="MyBatis·逆向工程、运行原理、插件"/></a><div class="content"><a class="title" href="/2024/10/24/MyBatis%C2%B7%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E3%80%81%E8%BF%90%E8%A1%8C%E5%8E%9F%E7%90%86%E3%80%81%E6%8F%92%E4%BB%B6/" title="MyBatis·逆向工程、运行原理、插件">MyBatis·逆向工程、运行原理、插件</a><time datetime="2024-10-23T16:00:00.000Z" title="发表于 2024-10-24 00:00:00">2024-10-24</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/top.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2024 By ClorisHerZeN</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">ClorisHerZeN</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2024/10/07/Servlet/">http://example.com/2024/10/07/Servlet/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">机器人在吹萨克斯</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/JavaWeb/">JavaWeb</a></div><div class="post_share"><div class="social-share" data-image="/img/JavaWeb/Servlet%E5%B0%81%E9%9D%A21.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/10/08/%E8%BF%87%E6%BB%A4%E5%99%A8%E4%B8%8E%E7%9B%91%E5%90%AC%E5%99%A8/" title="过滤器与监听器"><img class="cover" src="/img/JavaWeb/%E8%BF%87%E6%BB%A4%E5%99%A8%E5%B7%A5%E4%BD%9C%E4%BD%8D%E7%BD%AE.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">过滤器与监听器</div></div></a></div><div class="next-post pull-right"><a href="/2024/10/06/%E6%95%B0%E7%BB%84%E3%80%81%E9%93%BE%E8%A1%A8%E4%B8%8E%E9%80%92%E5%BD%92/" title="数组、链表与递归"><img class="cover" src="/img/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E9%80%92%E5%BD%92%E5%B0%81%E9%9D%A2.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">数组、链表与递归</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2024/10/13/JSP%E3%80%81EL%E4%B8%8EJSTL/" title="JSP、EL与JSTL"><img class="cover" src="/img/JavaWeb/JSP%E5%B0%81%E9%9D%A2.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-13</div><div class="title">JSP、EL与JSTL</div></div></a></div><div><a href="/2024/10/12/JavaWeb%E5%85%A5%E9%97%A8/" title="JavaWeb入门"><img class="cover" src="/img/JavaWeb/JavaWeb%E5%85%A5%E9%97%A8%E5%B0%81%E9%9D%A2.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-12</div><div class="title">JavaWeb入门</div></div></a></div><div><a href="/2024/10/04/JavaWeb%E5%BC%80%E5%8F%91%C2%B7Maven/" title="JavaWeb开发·Maven"><img class="cover" src="/img/JavaWeb/Maven%E5%B0%81%E9%9D%A2.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-04</div><div class="title">JavaWeb开发·Maven</div></div></a></div><div><a href="/2024/10/08/%E4%BC%9A%E8%AF%9D/" title="会话"><img class="cover" src="/img/JavaWeb/cookie%E5%8E%9F%E7%90%86%E5%9B%BE.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-08</div><div class="title">会话</div></div></a></div><div><a href="/2024/10/08/%E8%BF%87%E6%BB%A4%E5%99%A8%E4%B8%8E%E7%9B%91%E5%90%AC%E5%99%A8/" title="过滤器与监听器"><img class="cover" src="/img/JavaWeb/%E8%BF%87%E6%BB%A4%E5%99%A8%E5%B7%A5%E4%BD%9C%E4%BD%8D%E7%BD%AE.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-08</div><div class="title">过滤器与监听器</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">ClorisHerZeN</div><div class="author-info__description">I make my own luck.</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">58</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/CLorisHerZeN" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到 机器人在吹萨克斯，这是一个记录学习生活的博客！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">简介</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Servlet%E7%AE%80%E4%BB%8B"><span class="toc-number">1.1.</span> <span class="toc-text">Servlet简介</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">2.</span> <span class="toc-text">运行与开发流程</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8IDEA%E5%88%9B%E5%BB%BAServlet%E7%A8%8B%E5%BA%8F"><span class="toc-number">2.1.</span> <span class="toc-text">使用IDEA创建Servlet程序</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">3.</span> <span class="toc-text">Servlet注解方式配置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#WebServlet%E6%B3%A8%E8%A7%A3%E4%BD%BF%E7%94%A8"><span class="toc-number">3.1.</span> <span class="toc-text">@WebServlet注解使用</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">4.</span> <span class="toc-text">Servlet生命周期</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Servlet%E4%B8%BB%E8%A6%81%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E6%89%A7%E8%A1%8C%E7%89%B9%E7%82%B9"><span class="toc-number">4.1.</span> <span class="toc-text">Servlet主要的生命周期执行特点</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">5.</span> <span class="toc-text">Servlet继承结构</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Servlet%E6%8E%A5%E5%8F%A3"><span class="toc-number">5.1.</span> <span class="toc-text">Servlet接口</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#GenericServlet-%E6%8A%BD%E8%B1%A1%E7%B1%BB"><span class="toc-number">5.2.</span> <span class="toc-text">GenericServlet 抽象类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#HttpServlet-%E6%8A%BD%E8%B1%A1%E7%B1%BB"><span class="toc-number">5.3.</span> <span class="toc-text">HttpServlet 抽象类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89Servlet"><span class="toc-number">5.4.</span> <span class="toc-text">自定义Servlet</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">6.</span> <span class="toc-text">ServletConfig类和ServletContext类</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#ServletConfig%E7%9A%84%E4%BD%BF%E7%94%A8%EF%BC%88%E4%BA%86%E8%A7%A3%EF%BC%89"><span class="toc-number">6.1.</span> <span class="toc-text">ServletConfig的使用（了解）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ServletContext%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-number">6.2.</span> <span class="toc-text">ServletContext的使用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ServletContext%E5%85%B6%E4%BB%96%E9%87%8D%E8%A6%81API"><span class="toc-number">6.2.1.</span> <span class="toc-text">ServletContext其他重要API</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">7.</span> <span class="toc-text">HttpServletRequest</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">8.</span> <span class="toc-text">HttpServletResponse</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">9.</span> <span class="toc-text">请求转发和响应重定向</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%B7%E6%B1%82%E8%BD%AC%E5%8F%91"><span class="toc-number">9.1.</span> <span class="toc-text">请求转发</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%93%8D%E5%BA%94%E9%87%8D%E5%AE%9A%E5%90%91%EF%BC%88%E8%A6%81%E5%AE%9E%E7%8E%B0%E9%A1%B5%E9%9D%A2%E8%B7%B3%E8%BD%AC%EF%BC%8C%E4%BC%98%E5%85%88%E4%BD%BF%E7%94%A8%EF%BC%89"><span class="toc-number">9.2.</span> <span class="toc-text">响应重定向（要实现页面跳转，优先使用）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">10.</span> <span class="toc-text">附录：Web乱码和路径问题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98"><span class="toc-number">10.1.</span> <span class="toc-text">乱码问题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Tomcat%E6%8E%A7%E5%88%B6%E5%8F%B0%E4%B9%B1%E7%A0%81"><span class="toc-number">10.1.1.</span> <span class="toc-text">Tomcat控制台乱码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HTML%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98"><span class="toc-number">10.1.2.</span> <span class="toc-text">HTML乱码问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%B7%E6%B1%82%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98"><span class="toc-number">10.1.3.</span> <span class="toc-text">请求乱码问题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Get%E6%96%B9%E5%BC%8F%E8%AF%B7%E6%B1%82%E4%B9%B1%E7%A0%81"><span class="toc-number">10.1.3.1.</span> <span class="toc-text">Get方式请求乱码</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Post%E6%96%B9%E5%BC%8F%E8%AF%B7%E6%B1%82%E4%B9%B1%E7%A0%81"><span class="toc-number">10.1.3.2.</span> <span class="toc-text">Post方式请求乱码</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%8D%E5%BA%94%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98"><span class="toc-number">10.1.4.</span> <span class="toc-text">响应乱码问题</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B7%AF%E5%BE%84%E9%97%AE%E9%A2%98"><span class="toc-number">10.2.</span> <span class="toc-text">路径问题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9A%84%E4%B8%8D%E5%90%8C%E6%84%8F%E4%B9%89"><span class="toc-number">10.2.1.</span> <span class="toc-text">&#x2F;的不同意义</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">11.</span> <span class="toc-text">附录：MVC架构模式</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/11/01/springBoot%C2%B7%E6%95%B0%E6%8D%AE%E8%AE%BF%E9%97%AE%E3%80%81%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%87%E6%A0%87%E7%9B%91%E6%8E%A7/" title="SpringBoot·数据访问、单元测试与指标监控"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·数据访问、单元测试与指标监控"/></a><div class="content"><a class="title" href="/2024/11/01/springBoot%C2%B7%E6%95%B0%E6%8D%AE%E8%AE%BF%E9%97%AE%E3%80%81%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%87%E6%A0%87%E7%9B%91%E6%8E%A7/" title="SpringBoot·数据访问、单元测试与指标监控">SpringBoot·数据访问、单元测试与指标监控</a><time datetime="2024-10-31T16:00:00.000Z" title="发表于 2024-11-01 00:00:00">2024-11-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/10/31/SpringBoot%C2%B7%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD/" title="SpringBoot·核心功能"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·核心功能"/></a><div class="content"><a class="title" href="/2024/10/31/SpringBoot%C2%B7%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD/" title="SpringBoot·核心功能">SpringBoot·核心功能</a><time datetime="2024-10-30T16:00:00.000Z" title="发表于 2024-10-31 00:00:00">2024-10-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/10/28/SpringBoot%C2%B7%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/" title="SpringBoot·基础入门"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·基础入门"/></a><div class="content"><a class="title" href="/2024/10/28/SpringBoot%C2%B7%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/" title="SpringBoot·基础入门">SpringBoot·基础入门</a><time datetime="2024-10-27T16:00:00.000Z" title="发表于 2024-10-28 00:00:00">2024-10-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/10/25/%E5%93%88%E5%B8%8C%E8%A1%A8/" title="哈希表"><img src="/img/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%93%88%E5%B8%8C%E8%A1%A8%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="哈希表"/></a><div class="content"><a class="title" href="/2024/10/25/%E5%93%88%E5%B8%8C%E8%A1%A8/" title="哈希表">哈希表</a><time datetime="2024-10-24T16:00:00.000Z" title="发表于 2024-10-25 00:00:00">2024-10-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/10/24/MyBatis%C2%B7%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E3%80%81%E8%BF%90%E8%A1%8C%E5%8E%9F%E7%90%86%E3%80%81%E6%8F%92%E4%BB%B6/" title="MyBatis·逆向工程、运行原理、插件"><img src="/img/JavaWeb/MyBatis%E5%B0%81%E9%9D%A2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="MyBatis·逆向工程、运行原理、插件"/></a><div class="content"><a class="title" href="/2024/10/24/MyBatis%C2%B7%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E3%80%81%E8%BF%90%E8%A1%8C%E5%8E%9F%E7%90%86%E3%80%81%E6%8F%92%E4%BB%B6/" title="MyBatis·逆向工程、运行原理、插件">MyBatis·逆向工程、运行原理、插件</a><time datetime="2024-10-23T16:00:00.000Z" title="发表于 2024-10-24 00:00:00">2024-10-24</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/top.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2024 By ClorisHerZeN</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
   window.MathJax = {
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
