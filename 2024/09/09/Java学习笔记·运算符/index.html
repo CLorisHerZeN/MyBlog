@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Java学习笔记·运算符 | 机器人在吹萨克斯</title><meta name="author" content="ClorisHerZeN"><meta name="copyright" content="ClorisHerZeN"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="介绍 运算符是一种特殊的符号，用以表示数据的运算、赋值和比较等。  算术运算符 赋值运算符 关系运算符[比较运算符] 逻辑运算符 位运算符[需要二进制基础] 三元运算符    算数运算符介绍 对数值类型的变量进行运算     运算符 运算 范例 结果    + 正号 +7 7   - 负号 b&#x3D;11;-b -11   + 加 9+9 18   - 减 10-8 2   * 乘 7*8 5">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Java学习笔记·运算符 | 机器人在吹萨克斯</title><meta name="author" content="ClorisHerZeN"><meta name="copyright" content="ClorisHerZeN"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="介绍   运算符是一种特殊的符号，用以表示数据的运算、赋值和比较等。  算术运算符 赋值运算符 关系运算符[比较运算符] 逻辑运算符 位运算符[需要二进制基础] 三元运算符    算数运算符 介绍  对数值类型的变量进行运算     运算符 运算 范例 结果     + 正号 +7 7   - 负号 b&#x3D;11;-b -11   + 加 9+9 18   - 减 10-8 2   * 乘 7*8 5">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java学习笔记·运算符">
 <meta property="og:url" content="http://example.com/2024/09/09/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7%E8%BF%90%E7%AE%97%E7%AC%A6/index.html">
 <meta property="og:site_name" content="机器人在吹萨克斯">
-<meta property="og:description" content="介绍 运算符是一种特殊的符号，用以表示数据的运算、赋值和比较等。  算术运算符 赋值运算符 关系运算符[比较运算符] 逻辑运算符 位运算符[需要二进制基础] 三元运算符    算数运算符介绍 对数值类型的变量进行运算     运算符 运算 范例 结果    + 正号 +7 7   - 负号 b&#x3D;11;-b -11   + 加 9+9 18   - 减 10-8 2   * 乘 7*8 5">
+<meta property="og:description" content="介绍   运算符是一种特殊的符号，用以表示数据的运算、赋值和比较等。  算术运算符 赋值运算符 关系运算符[比较运算符] 逻辑运算符 位运算符[需要二进制基础] 三元运算符    算数运算符 介绍  对数值类型的变量进行运算     运算符 运算 范例 结果     + 正号 +7 7   - 负号 b&#x3D;11;-b -11   + 加 9+9 18   - 减 10-8 2   * 乘 7*8 5">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/img/JavaTop.jpg">
 <meta property="article:published_time" content="2024-09-08T16:00:00.000Z">
@@ -174,8 +174,10 @@
     document.addEventListener('pjax:send', () => { preloader.initLoading() })
     document.addEventListener('pjax:complete', () => { preloader.endLoading() })
   }
-})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">59</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/JavaTop.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="机器人在吹萨克斯"><span class="site-name">机器人在吹萨克斯</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Java学习笔记·运算符</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-09-08T16:00:00.000Z" title="发表于 2024-09-09 00:00:00">2024-09-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-09-14T14:47:45.913Z" title="更新于 2024-09-14 22:47:45">2024-09-14</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.9k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>11分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Java学习笔记·运算符"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><ul>
-<li><p>运算符是一种特殊的符号，用以表示数据的运算、赋值和比较等。</p>
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">60</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/JavaTop.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="机器人在吹萨克斯"><span class="site-name">机器人在吹萨克斯</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Java学习笔记·运算符</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-09-08T16:00:00.000Z" title="发表于 2024-09-09 00:00:00">2024-09-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-09-14T14:47:45.913Z" title="更新于 2024-09-14 22:47:45">2024-09-14</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.8k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>10分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Java学习笔记·运算符"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="介绍">介绍</h2>
+<ul>
+<li>
+<p>运算符是一种特殊的符号，用以表示数据的运算、赋值和比较等。</p>
 <ol>
 <li>算术运算符</li>
 <li>赋值运算符</li>
@@ -186,7 +188,9 @@
 </ol>
 </li>
 </ul>
-<h2 id="算数运算符"><a href="#算数运算符" class="headerlink" title="算数运算符"></a>算数运算符</h2><h3 id="介绍-1"><a href="#介绍-1" class="headerlink" title="介绍"></a>介绍</h3><ul>
+<h2 id="算数运算符">算数运算符</h2>
+<h3 id="介绍-2">介绍</h3>
+<ul>
 <li>对数值类型的变量进行运算</li>
 </ul>
 <table>
@@ -198,7 +202,8 @@
 <th>结果</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>+</td>
 <td>正号</td>
 <td>+7</td>
@@ -207,7 +212,7 @@
 <tr>
 <td>-</td>
 <td>负号</td>
-<td>b&#x3D;11;-b</td>
+<td>b=11;-b</td>
 <td>-11</td>
 </tr>
 <tr>
@@ -229,9 +234,9 @@
 <td>56</td>
 </tr>
 <tr>
-<td>&#x2F;</td>
+<td>/</td>
 <td>除</td>
-<td>9&#x2F;9</td>
+<td>9/9</td>
 <td>1</td>
 </tr>
 <tr>
@@ -243,32 +248,35 @@
 <tr>
 <td>++</td>
 <td>自增（前）：先运算后取值<br>自增（后）：先取值后运算</td>
-<td>a&#x3D;2;b&#x3D;++a;<br>a&#x3D;2;b&#x3D;a++;</td>
-<td>a&#x3D;3;b&#x3D;3<br>a&#x3D;3;b&#x3D;2</td>
+<td>a=2;b=++a;<br>a=2;b=a++;</td>
+<td>a=3;b=3<br>a=3;b=2</td>
 </tr>
 <tr>
 <td>–</td>
 <td>自减（前）：先运算后取值<br>自减（后）：先取值后运算</td>
-<td>a&#x3D;2;b&#x3D;–a;<br>a&#x3D;2;b&#x3D;a–;</td>
-<td>a&#x3D;1;b&#x3D;1<br>a&#x3D;1;b&#x3D;2</td>
+<td>a=2;b=–a;<br>a=2;b=a–;</td>
+<td>a=1;b=1<br>a=1;b=2</td>
 </tr>
 <tr>
 <td>+</td>
 <td>字符串相加</td>
-<td>“hsp”+”edu”</td>
+<td>“hsp”+“edu”</td>
 <td>“hsp edu”</td>
 </tr>
-</tbody></table>
-<h3 id="细节说明"><a href="#细节说明" class="headerlink" title="细节说明"></a>细节说明</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//使用</span></span><br><span class="line">System.out.println(<span class="number">10</span> / <span class="number">4</span>); <span class="comment">//从数学来看是2.5, java 中10与4都是整数，2</span></span><br><span class="line">System.out.println(<span class="number">10.0</span> / <span class="number">4</span>); <span class="comment">//java 是2.5</span></span><br><span class="line"></span><br><span class="line"><span class="type">double</span> <span class="variable">d</span> <span class="operator">=</span> <span class="number">10</span> / <span class="number">4</span>;<span class="comment">//java 中10 / 4 = 2, int--》double，2=&gt;2.0</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// % 取模,取余数</span></span><br><span class="line"><span class="comment">// % 的本质看一个公式!!!! a % b = a - a / b * b</span></span><br><span class="line"><span class="comment">// -10 % -3 = (-10) - (-10) / (-3) * (-3) = -10 + 9 = -1</span></span><br><span class="line">System.out.println(<span class="number">10</span> % <span class="number">3</span>); <span class="comment">//1</span></span><br><span class="line">System.out.println(-<span class="number">10</span> % <span class="number">3</span>); <span class="comment">// -1</span></span><br><span class="line">System.out.println(<span class="number">10</span> % -<span class="number">3</span>); <span class="comment">//1</span></span><br><span class="line">System.out.println(-<span class="number">10</span> % -<span class="number">3</span>);<span class="comment">//-1</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//++的使用</span></span><br><span class="line"><span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">10</span>;</span><br><span class="line">i++;<span class="comment">//自增等价于i = i + 1; =&gt; i = 11</span></span><br><span class="line">++i;<span class="comment">//自增等价于i = i + 1; =&gt; i = 12，独立使用是相同的</span></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">作为表达式使用</span></span><br><span class="line"><span class="comment">前++：++i 先自增后赋值</span></span><br><span class="line"><span class="comment">后++：i++先赋值后自增</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">8</span>;</span><br><span class="line"><span class="comment">//int k = ++j; //等价j=j+1;k=j;</span></span><br><span class="line"><span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> j++; <span class="comment">// 等价k =j;j=j+1;</span></span><br><span class="line">System.out.println(<span class="string">&quot;k=&quot;</span> + k + <span class="string">&quot;j=&quot;</span> + j);<span class="comment">//8 9</span></span><br></pre></td></tr></table></figure>
-
+</tbody>
+</table>
+<h3 id="细节说明">细节说明</h3>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//使用</span></span><br><span class="line">System.out.println(<span class="number">10</span> / <span class="number">4</span>); <span class="comment">//从数学来看是2.5, java 中10与4都是整数，2</span></span><br><span class="line">System.out.println(<span class="number">10.0</span> / <span class="number">4</span>); <span class="comment">//java 是2.5</span></span><br><span class="line"></span><br><span class="line"><span class="type">double</span> <span class="variable">d</span> <span class="operator">=</span> <span class="number">10</span> / <span class="number">4</span>;<span class="comment">//java 中10 / 4 = 2, int--》double，2=&gt;2.0</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// % 取模,取余数</span></span><br><span class="line"><span class="comment">// % 的本质看一个公式!!!! a % b = a - a / b * b</span></span><br><span class="line"><span class="comment">// -10 % -3 = (-10) - (-10) / (-3) * (-3) = -10 + 9 = -1</span></span><br><span class="line">System.out.println(<span class="number">10</span> % <span class="number">3</span>); <span class="comment">//1</span></span><br><span class="line">System.out.println(-<span class="number">10</span> % <span class="number">3</span>); <span class="comment">// -1</span></span><br><span class="line">System.out.println(<span class="number">10</span> % -<span class="number">3</span>); <span class="comment">//1</span></span><br><span class="line">System.out.println(-<span class="number">10</span> % -<span class="number">3</span>);<span class="comment">//-1</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//++的使用</span></span><br><span class="line"><span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">10</span>;</span><br><span class="line">i++;<span class="comment">//自增等价于i = i + 1; =&gt; i = 11</span></span><br><span class="line">++i;<span class="comment">//自增等价于i = i + 1; =&gt; i = 12，独立使用是相同的</span></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">作为表达式使用</span></span><br><span class="line"><span class="comment">前++：++i 先自增后赋值</span></span><br><span class="line"><span class="comment">后++：i++先赋值后自增</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">8</span>;</span><br><span class="line"><span class="comment">//int k = ++j; //等价j=j+1;k=j;</span></span><br><span class="line"><span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> j++; <span class="comment">// 等价k =j;j=j+1;</span></span><br><span class="line">System.out.println(<span class="string">&quot;k=&quot;</span> + k + <span class="string">&quot;j=&quot;</span> + j);<span class="comment">//8 9</span></span><br></pre></td></tr></table></figure>
 <ul>
-<li><p>面试题</p>
+<li>
+<p>面试题</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">1</span>;	<span class="comment">//使用临时变量：(1)temp = i;(2)i = i + 1;(3)i = temp;</span></span><br><span class="line">i = i++;	<span class="comment">//1</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">1</span>;	<span class="comment">//(1)i = i + 1;(2)temp = i;(3)i = temp;</span></span><br><span class="line">i = ++i;	<span class="comment">//2</span></span><br></pre></td></tr></table></figure>
-
 <p>​</p>
 </li>
 </ul>
-<h2 id="关系运算符（比较运算符）"><a href="#关系运算符（比较运算符）" class="headerlink" title="关系运算符（比较运算符）"></a>关系运算符（比较运算符）</h2><h3 id="介绍-2"><a href="#介绍-2" class="headerlink" title="介绍"></a>介绍</h3><ul>
+<h2 id="关系运算符（比较运算符）">关系运算符（比较运算符）</h2>
+<h3 id="介绍-3">介绍</h3>
+<ul>
 <li>关系运算符的结果都是boolean 型，也就是要么是true，要么是false</li>
 <li>关系表达式经常用在if 结构的条件中或循环结构的条件中</li>
 </ul>
@@ -281,16 +289,17 @@
 <th>结果</th>
 </tr>
 </thead>
-<tbody><tr>
-<td>&#x3D;&#x3D;</td>
+<tbody>
+<tr>
+<td>==</td>
 <td>相等于</td>
-<td>8&#x3D;&#x3D;7</td>
+<td>8==7</td>
 <td>false</td>
 </tr>
 <tr>
-<td>!&#x3D;</td>
+<td>!=</td>
 <td>不等于</td>
-<td>8!&#x3D;7</td>
+<td>8!=7</td>
 <td>true</td>
 </tr>
 <tr>
@@ -306,15 +315,15 @@
 <td>true</td>
 </tr>
 <tr>
-<td>&lt;&#x3D;</td>
+<td>&lt;=</td>
 <td>小于等于</td>
-<td>8&lt;&#x3D;7</td>
+<td>8&lt;=7</td>
 <td>false</td>
 </tr>
 <tr>
-<td>&gt;&#x3D;</td>
+<td>&gt;=</td>
 <td>大于等于</td>
-<td>8&gt;&#x3D;7</td>
+<td>8&gt;=7</td>
 <td>true</td>
 </tr>
 <tr>
@@ -323,13 +332,17 @@
 <td>“hsp” instanceof String</td>
 <td>true</td>
 </tr>
-</tbody></table>
-<h3 id="细节说明-1"><a href="#细节说明-1" class="headerlink" title="细节说明"></a>细节说明</h3><ol>
+</tbody>
+</table>
+<h3 id="细节说明-2">细节说明</h3>
+<ol>
 <li>关系运算符的结果都是boolean 型，也就是要么是true，要么是false。</li>
 <li>关系运算符组成的表达式，我们称为关系表达式。a &gt; b</li>
-<li>比较运算符”&#x3D;&#x3D;”不能误写成”&#x3D;”</li>
+<li>比较运算符&quot;==“不能误写成”=&quot;</li>
 </ol>
-<h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><h3 id="介绍-3"><a href="#介绍-3" class="headerlink" title="介绍"></a>介绍</h3><ul>
+<h2 id="逻辑运算符">逻辑运算符</h2>
+<h3 id="介绍-4">介绍</h3>
+<ul>
 <li>用于连接多个条件（多个关系表达式），最终的结果也是一个boolean 值。</li>
 </ul>
 <ol>
@@ -338,63 +351,79 @@
 </ol>
 <p><img src="/img/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6.jpg" alt="辑运算"></p>
 <ul>
-<li><p>a&amp;b : &amp; 叫逻辑与：规则：当a 和b 同时为true ,则结果为true, 否则为false</p>
+<li>
+<p>a&amp;b : &amp; 叫逻辑与：规则：当a 和b 同时为true ,则结果为true, 否则为false</p>
 </li>
-<li><p>a&amp;&amp;b : &amp;&amp; 叫短路与：规则：当a 和b 同时为true ,则结果为true,否则为false</p>
+<li>
+<p>a&amp;&amp;b : &amp;&amp; 叫短路与：规则：当a 和b 同时为true ,则结果为true,否则为false</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">a</span> <span class="operator">=</span> <span class="number">4</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">b</span> <span class="operator">=</span> <span class="number">9</span>;</span><br><span class="line"><span class="keyword">if</span>(a &lt; <span class="number">1</span> &amp; ++b &lt; <span class="number">50</span>) &#123;</span><br><span class="line">System.out.println(<span class="string">&quot;ok300&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line">System.out.println(<span class="string">&quot;a=&quot;</span> + a + <span class="string">&quot; b=&quot;</span> + b);<span class="comment">// 4 10</span></span><br><span class="line"><span class="comment">//对于&amp;&amp;短路与而言，如果第一个条件为false ,后面的条件不再判断</span></span><br><span class="line"><span class="comment">//对于&amp;逻辑与而言，如果第一个条件为false ,后面的条件仍然会判断(++b会执行)</span></span><br><span class="line"><span class="comment">//开发中， 我们使用的基本是使用短路与&amp;&amp;, 效率高</span></span><br></pre></td></tr></table></figure>
-
 <p>​</p>
 </li>
-<li><p>a|b : | 叫逻辑或，规则：当a 和b ，有一个为true ,则结果为true,否则为false</p>
+<li>
+<p>a|b : | 叫逻辑或，规则：当a 和b ，有一个为true ,则结果为true,否则为false</p>
 </li>
-<li><p>a||b : || 叫短路或，规则：当a 和b ，有一个为true ,则结果为true,否则为false</p>
+<li>
+<p>a||b : || 叫短路或，规则：当a 和b ，有一个为true ,则结果为true,否则为false</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//(1)||短路或：如果第一个条件为true，则第二个条件不会判断，最终结果为true，效率高</span></span><br><span class="line"><span class="comment">//(2)| 逻辑或：不管第一个条件是否为true，第二个条件都要判断，效率低</span></span><br><span class="line"><span class="type">int</span> <span class="variable">a</span> <span class="operator">=</span> <span class="number">4</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">b</span> <span class="operator">=</span> <span class="number">9</span>;</span><br><span class="line"><span class="keyword">if</span>( a &gt; <span class="number">1</span> || ++b &gt; <span class="number">4</span>) &#123; <span class="comment">// 可以换成| 测试</span></span><br><span class="line">System.out.println(<span class="string">&quot;ok300&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line">System.out.println(<span class="string">&quot;a=&quot;</span> + a + <span class="string">&quot; b=&quot;</span> + b); <span class="comment">//4 9</span></span><br></pre></td></tr></table></figure>
-
 <p>​</p>
 </li>
-<li><p>!a : 叫取反，或者非运算。当a 为true, 则结果为false, 当a 为false 是，结果为true</p>
+<li>
+<p>!a : 叫取反，或者非运算。当a 为true, 则结果为false, 当a 为false 是，结果为true</p>
 </li>
-<li><p>a^b: 叫逻辑异或，当a 和b 不同时，则结果为true, 否则为false</p>
+<li>
+<p>a^b: 叫逻辑异或，当a 和b 不同时，则结果为true, 否则为false</p>
 </li>
 </ul>
-<h2 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h2><h3 id="介绍-4"><a href="#介绍-4" class="headerlink" title="介绍"></a>介绍</h3><ul>
+<h2 id="赋值运算符">赋值运算符</h2>
+<h3 id="介绍-5">介绍</h3>
+<ul>
 <li>将某个运算后的值，赋给指定的变量。</li>
 </ul>
 <ul>
-<li><p>基本赋值运算符：<code>=</code></p>
+<li>
+<p>基本赋值运算符：<code>=</code></p>
 </li>
-<li><p>符合赋值运算符：<code>+=</code> ; <code>-=</code> ; <code>*=</code> ; <code>/=</code> ; <code>%=</code> 等</p>
+<li>
+<p>符合赋值运算符：<code>+=</code> ; <code>-=</code> ; <code>*=</code> ; <code>/=</code> ; <code>%=</code> 等</p>
 <blockquote>
 <p><code>a += b</code> 等价于 <code>a = a + b</code>。其余同理</p>
 </blockquote>
 </li>
 </ul>
-<h3 id="细节"><a href="#细节" class="headerlink" title="细节"></a>细节</h3><ol>
-<li><p>运算顺序从右往左。</p>
+<h3 id="细节">细节</h3>
+<ol>
+<li>
+<p>运算顺序从右往左。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">int num = a + b + c;	// 先运行(a + b + c)，再结算int num =</span><br><span class="line">JAVA</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>运算符左边只能是变量，右边可以是变量、表达式、常量值。</p>
+<li>
+<p>运算符左边只能是变量，右边可以是变量、表达式、常量值。</p>
 </li>
-<li><p>复合赋值运算符会进行类型转换。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">byte b = 2; b += 3;		// 此时 b += 3 等价于 b = (byte)(b + 3)</span><br><span class="line">b++;					// 同理</span><br></pre></td></tr></table></figure></li>
+<li>
+<p>复合赋值运算符会进行类型转换。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">byte b = 2; b += 3;		// 此时 b += 3 等价于 b = (byte)(b + 3)</span><br><span class="line">b++;					// 同理</span><br></pre></td></tr></table></figure>
+</li>
 </ol>
-<h2 id="三元运算符"><a href="#三元运算符" class="headerlink" title="三元运算符"></a>三元运算符</h2><h3 id="介绍-5"><a href="#介绍-5" class="headerlink" title="介绍"></a>介绍</h3><ul>
+<h2 id="三元运算符">三元运算符</h2>
+<h3 id="介绍-6">介绍</h3>
+<ul>
 <li>条件表达式? 表达式1: 表达式2;</li>
-<li>运算规则：<ul>
+<li>运算规则：
+<ul>
 <li>如果条件表达式为true，运算后的结果是表达式1；</li>
 <li>如果条件表达式为false，运算后的结果是表达式2；</li>
 </ul>
 </li>
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">a</span> <span class="operator">=</span> <span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">b</span> <span class="operator">=</span> <span class="number">99</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">result</span> <span class="operator">=</span> a &gt; b ? a++ : b--;</span><br><span class="line">System.out.println(<span class="string">&quot;result=&quot;</span> + result);<span class="comment">//10</span></span><br><span class="line">System.out.println(<span class="string">&quot;a=&quot;</span> + a);<span class="comment">//11</span></span><br><span class="line">System.out.println(<span class="string">&quot;b=&quot;</span> + b);<span class="comment">//99</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="细节-1"><a href="#细节-1" class="headerlink" title="细节"></a>细节</h3><ul>
+<h3 id="细节-2">细节</h3>
+<ul>
 <li>表达式1 和表达式2 要为可以赋给接收变量的类型(或可以自动转换)</li>
 <li>三元运算符可以转成if–else 语句</li>
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">a</span> <span class="operator">=</span> <span class="number">3</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">b</span> <span class="operator">=</span> <span class="number">8</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">c</span> <span class="operator">=</span> a &gt; b ? <span class="number">1.1</span> : <span class="number">3.4</span>;<span class="comment">//报错，1.1与3.4为double类型</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="运算符优先级"><a href="#运算符优先级" class="headerlink" title="运算符优先级"></a>运算符优先级</h2><ol>
+<h2 id="运算符优先级">运算符优先级</h2>
+<ol>
 <li>运算符有不同优先级。优先级高的总是优先于低的。</li>
 <li>只有单目运算符、赋值运算符是从右向左运算的。</li>
 <li><a target="_blank" rel="noopener" href="https://c.biancheng.net/view/794.html">Java运算符优先级 (biancheng.net)</a></li>
@@ -406,7 +435,8 @@
 <th>结核性</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>[]</code>、<code>()</code> 方法调用</td>
 <td>从左向右</td>
 </tr>
@@ -443,15 +473,15 @@
 <td>从左向右</td>
 </tr>
 <tr>
-<td>&#96;</td>
-<td>&#96;</td>
+<td>`</td>
+<td>`</td>
 </tr>
 <tr>
 <td><code>&amp;&amp;</code></td>
 <td>从左向右</td>
 </tr>
 <tr>
-<td>&#96;</td>
+<td>`</td>
 <td></td>
 </tr>
 <tr>
@@ -459,13 +489,16 @@
 <td>从右向左</td>
 </tr>
 <tr>
-<td><code>=</code>、<code>+=</code>、<code>-=</code>、<code>*=</code>、<code>/=</code>、<code>&amp;=</code>、<code>%=</code>、<code>^=</code>、&#96;</td>
-<td>&#x3D;<code>、</code>&lt;&lt;&#x3D;<code>、</code>&gt;&gt;&#x3D;<code>、</code>&gt;&gt;&gt;&#x3D;&#96;</td>
+<td><code>=</code>、<code>+=</code>、<code>-=</code>、<code>*=</code>、<code>/=</code>、<code>&amp;=</code>、<code>%=</code>、<code>^=</code>、`</td>
+<td>=<code>、</code>&lt;&lt;=<code>、</code>&gt;&gt;=<code>、</code>&gt;&gt;&gt;=`</td>
 </tr>
-</tbody></table>
-<h2 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h2><ul>
+</tbody>
+</table>
+<h2 id="标识符">标识符</h2>
+<ul>
 <li>由自己命名的地方都是标识符</li>
-<li>命名规则：<ul>
+<li>命名规则：
+<ul>
 <li>标识符由 26 个大、小写英文字母，0 - 9 阿拉伯数字，_ 或 $ 符号组成。</li>
 <li><strong>数字不能开头</strong>。 错误示范：<code>int 3a = 1;</code></li>
 <li>不能使用关键字和保留字（可以包含）。</li>
@@ -474,7 +507,8 @@
 <li>与多数编程语言不同。Java 可以用任何 Unicode 字符（特殊字符除外）作为标识符。但不推荐这么做</li>
 </ul>
 </li>
-<li>命名规范<ul>
+<li>命名规范
+<ul>
 <li>包名：多单词组成时所有字母都小写：aaa.bbb.ccc</li>
 <li>类名、接口名：多单词组成时，采用大驼峰法，所有单词的首字母大写：XxxYyyZzz</li>
 <li>变量名、方法名：多单词组成时，采小驼峰法（驼峰法），第一个单词首字母小写，第二个开始每个单词首字母大写：xxxYyyZzz</li>
@@ -482,15 +516,17 @@
 </ul>
 </li>
 </ul>
-<h2 id="键盘输入语句"><a href="#键盘输入语句" class="headerlink" title="键盘输入语句"></a>键盘输入语句</h2><ul>
+<h2 id="键盘输入语句">键盘输入语句</h2>
+<ul>
 <li>在编程中，需要接收用户输入的数据，就可以使用键盘输入语句来获取。</li>
 <li><code>Input.java</code> ，需要一个 扫描器（对象），就是 Scanner。</li>
 <li>Scanner 属于 java.util 包。</li>
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;		<span class="comment">//[1] 导入</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Code</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line">        <span class="type">Scanner</span> <span class="variable">aScannerName</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);	<span class="comment">//[2] new创建 Scanner 对象</span></span><br><span class="line">        System.out.println(<span class="string">&quot;输入点什么！&quot;</span>);</span><br><span class="line">        <span class="type">String</span> <span class="variable">pointSomething</span> <span class="operator">=</span> aScannerName.next();	</span><br><span class="line">        <span class="comment">//[3] 接收用户输入，执行到next()时程序暂停等待用户输入</span></span><br><span class="line">        System.out.println(<span class="string">&quot;你输入的是:&quot;</span> + pointSomething);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="进制"><a href="#进制" class="headerlink" title="进制"></a>进制</h2><ul>
-<li>对于整数，有四种表示方式：<ul>
+<h2 id="进制">进制</h2>
+<ul>
+<li>对于整数，有四种表示方式：
+<ul>
 <li>二进制：0,1 ，满2 进1.以0b 或0B 开头。</li>
 <li>十进制：0-9 ，满10 进1。</li>
 <li>八进制：0-7 ，满8 进1. 以数字0 开头表示。</li>
@@ -498,58 +534,72 @@
 </ul>
 </li>
 </ul>
-<h3 id="进制的转换"><a href="#进制的转换" class="headerlink" title="进制的转换"></a>进制的转换</h3><ul>
+<h3 id="进制的转换">进制的转换</h3>
+<ul>
 <li>其他进制 转 十进制：从最低位(右边)开始，将每个位上的数提取出来，乘以（进制数）的 (位数-1) 次方，然后求和。</li>
 <li>十进制 转 其他进制：将该数不断除以（对象进制数），直到商为0为止，将每步得到的余数倒过来（从下至上，，第一位为最后计算出来的商，注意16进制把9以上余数转为字母）。</li>
 <li>（二进制） 转 （八进制 或 十六进制）：二进制 从低位开始，每 3 位一组，转成对应的 八进制 即可。十六进制同理（但每 4 位一组）。</li>
 <li>（八进制 或 十六进制） 转 （二进制）：将八进制数每1 位，转成对应的一个3位的二进制数。（位数不够前补零）十六进制同理（但转成对应的一个4位的二进制数）。</li>
 </ul>
-<h2 id="位运算"><a href="#位运算" class="headerlink" title="位运算"></a>位运算</h2><h3 id="原码，反码与补码"><a href="#原码，反码与补码" class="headerlink" title="原码，反码与补码"></a>原码，反码与补码</h3><p>对于有符号的而言:    </p>
+<h2 id="位运算">位运算</h2>
+<h3 id="原码，反码与补码">原码，反码与补码</h3>
+<p>对于有符号的而言:</p>
 <ol>
 <li>二进制的最高位是符号位：0表示正数,1表示负数</li>
 <li>正数的原码，反码，补码都一样(三码合一)</li>
-<li><strong>负数</strong>的反码&#x3D;它的<strong>原码</strong>符号位不变，其它位取反(0-&gt;1,1-&gt;0)  </li>
-<li><strong>负数</strong>的<strong>补码</strong>&#x3D;它的<strong>反码</strong>+1，负数的反码&#x3D;负数的补码-1  </li>
+<li><strong>负数</strong>的反码=它的<strong>原码</strong>符号位不变，其它位取反(0-&gt;1,1-&gt;0)</li>
+<li><strong>负数</strong>的<strong>补码</strong>=它的<strong>反码</strong>+1，负数的反码=负数的补码-1</li>
 <li>0的反码，补码都是0</li>
 <li>java没有无符号数，换言之，java中的数都是<strong>有符号</strong>的</li>
 <li>在计算机运算的时候，都是以<strong>补码的方式来运算</strong>的．</li>
 <li>当我们看运算结果的时候，要看他的<strong>原码</strong></li>
 </ol>
-<h3 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h3><ul>
-<li><p>与进制关系密切</p>
+<h3 id="位运算符">位运算符</h3>
+<ul>
+<li>
+<p>与进制关系密切</p>
 </li>
-<li><p><code>&amp;</code> 按位与：两位都为 1，结果为 1，否则为 0</p>
+<li>
+<p><code>&amp;</code> 按位与：两位都为 1，结果为 1，否则为 0</p>
 </li>
-<li><p><code>|</code> 按位或：两位有一个为 1，结果为 1，否则为 0</p>
+<li>
+<p><code>|</code> 按位或：两位有一个为 1，结果为 1，否则为 0</p>
 </li>
-<li><p><code>^</code> 按位异或：两位不同，结果为 1，否则为 0</p>
+<li>
+<p><code>^</code> 按位异或：两位不同，结果为 1，否则为 0</p>
 </li>
-<li><p><code>~</code> 按位取反：把 0 变 1，1 变 0</p>
+<li>
+<p><code>~</code> 按位取反：把 0 变 1，1 变 0</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">2 &amp; 3：</span><br><span class="line">2 的原码：00000000 00000000 00000000 00000010</span><br><span class="line">2 的补码：00000000 00000000 00000000 00000010</span><br><span class="line">3 的原码：00000000 00000000 00000000 00000011</span><br><span class="line">3 的补码：00000000 00000000 00000000 00000011</span><br><span class="line"></span><br><span class="line">按位与：</span><br><span class="line">00000000 00000000 00000000 00000010</span><br><span class="line">00000000 00000000 00000000 00000011</span><br><span class="line">补码运算结果：00000000 00000000 00000000 00000010</span><br><span class="line">结果转成原码：00000000 00000000 00000000 00000010</span><br><span class="line">转成10进制运算结果：2</span><br><span class="line"></span><br><span class="line">~-2：</span><br><span class="line">-2 的原码：10000000 00000000 00000000 00000010</span><br><span class="line">-2 的反码：11111111 11111111 11111111 11111101</span><br><span class="line">-2 的补码：11111111 11111111 11111111 11111110</span><br><span class="line">补码运算结果：00000000 00000000 00000000 00000001</span><br><span class="line">结果转成原码：00000000 00000000 00000000 00000001</span><br><span class="line">运算结果：1</span><br><span class="line"></span><br><span class="line">~2：</span><br><span class="line">2 的原码：00000000 00000000 00000000 00000010</span><br><span class="line">~2运算得补码：11111111 11111111 11111111 11111101 结果要转成原码，但为负数,不是三码合一</span><br><span class="line">转成反码：11111111 11111111 11111111 11111100</span><br><span class="line">2 的补码：00000000 00000000 00000000 00000010</span><br><span class="line">反码转成原码：10000000 00000000 00000000 00000011</span><br><span class="line">运算结果：-3</span><br></pre></td></tr></table></figure>
-
 <p>​</p>
 </li>
-<li><p><code>&gt;&gt;</code> 算术右移：低位溢出，符号位不变，用符号位补溢出的高位</p>
+<li>
+<p><code>&gt;&gt;</code> 算术右移：低位溢出，符号位不变，用符号位补溢出的高位</p>
 </li>
-<li><p><code>&lt;&lt;</code> 算数左移：符号位不变，低位补 0</p>
+<li>
+<p><code>&lt;&lt;</code> 算数左移：符号位不变，低位补 0</p>
 </li>
-<li><p><code>&gt;&gt;&gt;</code> 逻辑右移（无符号右移）：低位溢出，高位补 0</p>
+<li>
+<p><code>&gt;&gt;&gt;</code> 逻辑右移（无符号右移）：低位溢出，高位补 0</p>
 </li>
-<li><p>特别说明：没有&lt;&lt;&lt; 符号</p>
+<li>
+<p>特别说明：没有&lt;&lt;&lt; 符号</p>
 <p>下面是示例：</p>
 <ul>
-<li><p>将数字 1 算术右移 2 位：<code>int a = 1 &gt;&gt; 2</code></p>
+<li>
+<p>将数字 1 算术右移 2 位：<code>int a = 1 &gt;&gt; 2</code></p>
 <blockquote>
 <p>1 的补码：00000000 00000000 00000000 00000001</p>
 <p>补码结果：00000000 00000000 00000000 00000000</p>
-<p>结果：00000000 00000000 00000000 00000000	&#x2F;&#x2F;转为10进制为0</p>
+<p>结果：00000000 00000000 00000000 00000000	//转为10进制为0</p>
 </blockquote>
 </li>
-<li><p>将数字 1 算术左移 2 位：<code>int b = 1 &lt;&lt; 2</code></p>
+<li>
+<p>将数字 1 算术左移 2 位：<code>int b = 1 &lt;&lt; 2</code></p>
 <blockquote>
 <p>1 的补码：00000000 00000000 00000000 00000001</p>
 <p>补码结果：00000000 00000000 00000000 00000100</p>
-<p>结果：00000000 00000000 00000000 00000100	&#x2F;&#x2F;转为10进制为4</p>
+<p>结果：00000000 00000000 00000000 00000100	//转为10进制为4</p>
 </blockquote>
 </li>
 </ul>
@@ -558,7 +608,7 @@
 <p>​</p>
 </li>
 </ul>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">ClorisHerZeN</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2024/09/09/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7%E8%BF%90%E7%AE%97%E7%AC%A6/">http://example.com/2024/09/09/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7%E8%BF%90%E7%AE%97%E7%AC%A6/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">机器人在吹萨克斯</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Java/">Java</a></div><div class="post_share"><div class="social-share" data-image="/img/JavaTop.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/09/10/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/" title="Java学习笔记·程序控制结构"><img class="cover" src="/img/JavaTop.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Java学习笔记·程序控制结构</div></div></a></div><div class="next-post pull-right"><a href="/2024/09/08/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7%E5%8F%98%E9%87%8F/" title="Java学习笔记·变量"><img class="cover" src="/img/JavaTop.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Java学习笔记·变量</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2024/09/28/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7JDBC%E4%B8%8E%E8%BF%9E%E6%8E%A5%E6%B1%A0/" title="Java学习笔记·JDBC与连接池"><img class="cover" src="/img/JavaTop.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-28</div><div class="title">Java学习笔记·JDBC与连接池</div></div></a></div><div><a href="/2024/09/23/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7IO%E6%B5%81/" title="Java学习笔记·IO流"><img class="cover" src="/img/JavaTop.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-23</div><div class="title">Java学习笔记·IO流</div></div></a></div><div><a href="/2024/09/27/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7MySQL/" title="Java学习笔记·MySQL"><img class="cover" src="/img/JavaTop.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-27</div><div class="title">Java学习笔记·MySQL</div></div></a></div><div><a href="/2024/09/25/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7%E5%8F%8D%E5%B0%84/" title="Java学习笔记·反射"><img class="cover" src="/img/JavaTop.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-25</div><div class="title">Java学习笔记·反射</div></div></a></div><div><a href="/2024/09/08/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7%E5%8F%98%E9%87%8F/" title="Java学习笔记·变量"><img class="cover" src="/img/JavaTop.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-08</div><div class="title">Java学习笔记·变量</div></div></a></div><div><a href="/2024/09/30/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7Java8%E6%96%B0%E7%89%B9%E6%80%A7/" title="Java学习笔记·Java8新特性"><img class="cover" src="/img/JavaTop.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-30</div><div class="title">Java学习笔记·Java8新特性</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">ClorisHerZeN</div><div class="author-info__description">I make my own luck.</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">59</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/CLorisHerZeN" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到 机器人在吹萨克斯，这是一个记录学习生活的博客！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AE%97%E6%95%B0%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">2.</span> <span class="toc-text">算数运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D-1"><span class="toc-number">2.1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%8A%82%E8%AF%B4%E6%98%8E"><span class="toc-number">2.2.</span> <span class="toc-text">细节说明</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E7%B3%BB%E8%BF%90%E7%AE%97%E7%AC%A6%EF%BC%88%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97%E7%AC%A6%EF%BC%89"><span class="toc-number">3.</span> <span class="toc-text">关系运算符（比较运算符）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D-2"><span class="toc-number">3.1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%8A%82%E8%AF%B4%E6%98%8E-1"><span class="toc-number">3.2.</span> <span class="toc-text">细节说明</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">4.</span> <span class="toc-text">逻辑运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D-3"><span class="toc-number">4.1.</span> <span class="toc-text">介绍</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">5.</span> <span class="toc-text">赋值运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D-4"><span class="toc-number">5.1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%8A%82"><span class="toc-number">5.2.</span> <span class="toc-text">细节</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">6.</span> <span class="toc-text">三元运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D-5"><span class="toc-number">6.1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%8A%82-1"><span class="toc-number">6.2.</span> <span class="toc-text">细节</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7"><span class="toc-number">7.</span> <span class="toc-text">运算符优先级</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%87%E8%AF%86%E7%AC%A6"><span class="toc-number">8.</span> <span class="toc-text">标识符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%94%AE%E7%9B%98%E8%BE%93%E5%85%A5%E8%AF%AD%E5%8F%A5"><span class="toc-number">9.</span> <span class="toc-text">键盘输入语句</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9B%E5%88%B6"><span class="toc-number">10.</span> <span class="toc-text">进制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E5%88%B6%E7%9A%84%E8%BD%AC%E6%8D%A2"><span class="toc-number">10.1.</span> <span class="toc-text">进制的转换</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%8D%E8%BF%90%E7%AE%97"><span class="toc-number">11.</span> <span class="toc-text">位运算</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%9F%E7%A0%81%EF%BC%8C%E5%8F%8D%E7%A0%81%E4%B8%8E%E8%A1%A5%E7%A0%81"><span class="toc-number">11.1.</span> <span class="toc-text">原码，反码与补码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">11.2.</span> <span class="toc-text">位运算符</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/11/08/SpringBoot%C2%B7%E5%9F%BA%E7%A1%80%E7%AF%87/" title="SpringBoot·基础篇"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·基础篇"/></a><div class="content"><a class="title" href="/2024/11/08/SpringBoot%C2%B7%E5%9F%BA%E7%A1%80%E7%AF%87/" title="SpringBoot·基础篇">SpringBoot·基础篇</a><time datetime="2024-11-07T16:00:00.000Z" title="发表于 2024-11-08 00:00:00">2024-11-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/11/01/springBoot%C2%B7%E6%95%B0%E6%8D%AE%E8%AE%BF%E9%97%AE%E3%80%81%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%87%E6%A0%87%E7%9B%91%E6%8E%A7/" title="SpringBoot·数据访问、单元测试与指标监控"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·数据访问、单元测试与指标监控"/></a><div class="content"><a class="title" href="/2024/11/01/springBoot%C2%B7%E6%95%B0%E6%8D%AE%E8%AE%BF%E9%97%AE%E3%80%81%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%87%E6%A0%87%E7%9B%91%E6%8E%A7/" title="SpringBoot·数据访问、单元测试与指标监控">SpringBoot·数据访问、单元测试与指标监控</a><time datetime="2024-10-31T16:00:00.000Z" title="发表于 2024-11-01 00:00:00">2024-11-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/10/31/SpringBoot%C2%B7%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD/" title="SpringBoot·核心功能"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·核心功能"/></a><div class="content"><a class="title" href="/2024/10/31/SpringBoot%C2%B7%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD/" title="SpringBoot·核心功能">SpringBoot·核心功能</a><time datetime="2024-10-30T16:00:00.000Z" title="发表于 2024-10-31 00:00:00">2024-10-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/10/28/SpringBoot%C2%B7%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/" title="SpringBoot·基础入门"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·基础入门"/></a><div class="content"><a class="title" href="/2024/10/28/SpringBoot%C2%B7%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/" title="SpringBoot·基础入门">SpringBoot·基础入门</a><time datetime="2024-10-27T16:00:00.000Z" title="发表于 2024-10-28 00:00:00">2024-10-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/10/25/%E5%93%88%E5%B8%8C%E8%A1%A8/" title="哈希表"><img src="/img/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%93%88%E5%B8%8C%E8%A1%A8%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="哈希表"/></a><div class="content"><a class="title" href="/2024/10/25/%E5%93%88%E5%B8%8C%E8%A1%A8/" title="哈希表">哈希表</a><time datetime="2024-10-24T16:00:00.000Z" title="发表于 2024-10-25 00:00:00">2024-10-25</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/top.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2024 By ClorisHerZeN</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">ClorisHerZeN</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2024/09/09/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7%E8%BF%90%E7%AE%97%E7%AC%A6/">http://example.com/2024/09/09/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7%E8%BF%90%E7%AE%97%E7%AC%A6/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">机器人在吹萨克斯</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Java/">Java</a></div><div class="post_share"><div class="social-share" data-image="/img/JavaTop.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/09/10/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7%E7%A8%8B%E5%BA%8F%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84/" title="Java学习笔记·程序控制结构"><img class="cover" src="/img/JavaTop.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Java学习笔记·程序控制结构</div></div></a></div><div class="next-post pull-right"><a href="/2024/09/08/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7%E5%8F%98%E9%87%8F/" title="Java学习笔记·变量"><img class="cover" src="/img/JavaTop.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Java学习笔记·变量</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2024/09/23/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7IO%E6%B5%81/" title="Java学习笔记·IO流"><img class="cover" src="/img/JavaTop.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-23</div><div class="title">Java学习笔记·IO流</div></div></a></div><div><a href="/2024/09/28/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7JDBC%E4%B8%8E%E8%BF%9E%E6%8E%A5%E6%B1%A0/" title="Java学习笔记·JDBC与连接池"><img class="cover" src="/img/JavaTop.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-28</div><div class="title">Java学习笔记·JDBC与连接池</div></div></a></div><div><a href="/2024/09/25/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7%E5%8F%8D%E5%B0%84/" title="Java学习笔记·反射"><img class="cover" src="/img/JavaTop.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-25</div><div class="title">Java学习笔记·反射</div></div></a></div><div><a href="/2024/09/27/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7MySQL/" title="Java学习笔记·MySQL"><img class="cover" src="/img/JavaTop.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-27</div><div class="title">Java学习笔记·MySQL</div></div></a></div><div><a href="/2024/09/30/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7Java8%E6%96%B0%E7%89%B9%E6%80%A7/" title="Java学习笔记·Java8新特性"><img class="cover" src="/img/JavaTop.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-30</div><div class="title">Java学习笔记·Java8新特性</div></div></a></div><div><a href="/2024/09/08/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%C2%B7%E5%8F%98%E9%87%8F/" title="Java学习笔记·变量"><img class="cover" src="/img/JavaTop.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-08</div><div class="title">Java学习笔记·变量</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">ClorisHerZeN</div><div class="author-info__description">I make my own luck.</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">60</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/CLorisHerZeN" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到 机器人在吹萨克斯，这是一个记录学习生活的博客！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AE%97%E6%95%B0%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">2.</span> <span class="toc-text">算数运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D-2"><span class="toc-number">2.1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%8A%82%E8%AF%B4%E6%98%8E"><span class="toc-number">2.2.</span> <span class="toc-text">细节说明</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E7%B3%BB%E8%BF%90%E7%AE%97%E7%AC%A6%EF%BC%88%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97%E7%AC%A6%EF%BC%89"><span class="toc-number">3.</span> <span class="toc-text">关系运算符（比较运算符）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D-3"><span class="toc-number">3.1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%8A%82%E8%AF%B4%E6%98%8E-2"><span class="toc-number">3.2.</span> <span class="toc-text">细节说明</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">4.</span> <span class="toc-text">逻辑运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D-4"><span class="toc-number">4.1.</span> <span class="toc-text">介绍</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">5.</span> <span class="toc-text">赋值运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D-5"><span class="toc-number">5.1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%8A%82"><span class="toc-number">5.2.</span> <span class="toc-text">细节</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">6.</span> <span class="toc-text">三元运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D-6"><span class="toc-number">6.1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%8A%82-2"><span class="toc-number">6.2.</span> <span class="toc-text">细节</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7"><span class="toc-number">7.</span> <span class="toc-text">运算符优先级</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%87%E8%AF%86%E7%AC%A6"><span class="toc-number">8.</span> <span class="toc-text">标识符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%94%AE%E7%9B%98%E8%BE%93%E5%85%A5%E8%AF%AD%E5%8F%A5"><span class="toc-number">9.</span> <span class="toc-text">键盘输入语句</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9B%E5%88%B6"><span class="toc-number">10.</span> <span class="toc-text">进制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E5%88%B6%E7%9A%84%E8%BD%AC%E6%8D%A2"><span class="toc-number">10.1.</span> <span class="toc-text">进制的转换</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%8D%E8%BF%90%E7%AE%97"><span class="toc-number">11.</span> <span class="toc-text">位运算</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%9F%E7%A0%81%EF%BC%8C%E5%8F%8D%E7%A0%81%E4%B8%8E%E8%A1%A5%E7%A0%81"><span class="toc-number">11.1.</span> <span class="toc-text">原码，反码与补码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">11.2.</span> <span class="toc-text">位运算符</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/11/11/MyBatisPlus/" title="MyBatisPlus"><img src="/img/JavaWeb/MyBatisPlus%E5%B0%81%E9%9D%A2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="MyBatisPlus"/></a><div class="content"><a class="title" href="/2024/11/11/MyBatisPlus/" title="MyBatisPlus">MyBatisPlus</a><time datetime="2024-11-10T16:00:00.000Z" title="发表于 2024-11-11 00:00:00">2024-11-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/11/08/SpringBoot%C2%B7%E5%9F%BA%E7%A1%80%E7%AF%87/" title="SpringBoot·基础篇"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·基础篇"/></a><div class="content"><a class="title" href="/2024/11/08/SpringBoot%C2%B7%E5%9F%BA%E7%A1%80%E7%AF%87/" title="SpringBoot·基础篇">SpringBoot·基础篇</a><time datetime="2024-11-07T16:00:00.000Z" title="发表于 2024-11-08 00:00:00">2024-11-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/11/01/springBoot%C2%B7%E6%95%B0%E6%8D%AE%E8%AE%BF%E9%97%AE%E3%80%81%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%87%E6%A0%87%E7%9B%91%E6%8E%A7/" title="SpringBoot·数据访问、单元测试与指标监控"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·数据访问、单元测试与指标监控"/></a><div class="content"><a class="title" href="/2024/11/01/springBoot%C2%B7%E6%95%B0%E6%8D%AE%E8%AE%BF%E9%97%AE%E3%80%81%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%87%E6%A0%87%E7%9B%91%E6%8E%A7/" title="SpringBoot·数据访问、单元测试与指标监控">SpringBoot·数据访问、单元测试与指标监控</a><time datetime="2024-10-31T16:00:00.000Z" title="发表于 2024-11-01 00:00:00">2024-11-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/10/31/SpringBoot%C2%B7%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD/" title="SpringBoot·核心功能"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·核心功能"/></a><div class="content"><a class="title" href="/2024/10/31/SpringBoot%C2%B7%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD/" title="SpringBoot·核心功能">SpringBoot·核心功能</a><time datetime="2024-10-30T16:00:00.000Z" title="发表于 2024-10-31 00:00:00">2024-10-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/10/28/SpringBoot%C2%B7%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/" title="SpringBoot·基础入门"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·基础入门"/></a><div class="content"><a class="title" href="/2024/10/28/SpringBoot%C2%B7%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/" title="SpringBoot·基础入门">SpringBoot·基础入门</a><time datetime="2024-10-27T16:00:00.000Z" title="发表于 2024-10-28 00:00:00">2024-10-28</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/top.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2024 By ClorisHerZeN</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
   window.MathJax = {
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
