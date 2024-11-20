@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Linux·基础</title>
+      <link href="/2024/11/20/Linux%C2%B7%E5%9F%BA%E7%A1%80/"/>
+      <url>/2024/11/20/Linux%C2%B7%E5%9F%BA%E7%A1%80/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux应用领域"><a href="#Linux应用领域" class="headerlink" title="Linux应用领域"></a>Linux应用领域</h1><p>![Linux 使用在那些地方](&#x2F;img&#x2F;Linux&#x2F;Linux 使用在那些地方.jpg)</p><ul><li>服务器：Linux是服务器操作系统的首选，特别是在Web服务器、数据库服务器、文件服务器等领域。许多大型网站和在线服务都运行在Linux服务器上。</li><li>嵌入式系统：Linux被广泛用于嵌入式系统，如智能手机、平板电脑、路由器、电视、汽车导航系统等。它的轻量级和可定制性使其成为嵌入式开发的理想选择。以后在物联网中应用会更加广泛。</li><li>个人桌面：此领域是传统linux 应用薄弱的环节，近些年来随着ubuntu、fedora [fɪˈdɔ:rə] 等优秀桌面环境的兴起，linux 在个人桌面领域的占有率在逐渐的提高。</li></ul><h1 id="Linux介绍"><a href="#Linux介绍" class="headerlink" title="Linux介绍"></a>Linux介绍</h1><ul><li><p>linux 是一个开源、免费的操作系统，其稳定性、安全性、处理多并发已经得到业界的认可，目前很多企业级的项目(c&#x2F;c++&#x2F;php&#x2F;python&#x2F;java&#x2F;go)都会部署到Linux&#x2F;unix 系统上。</p></li><li><p>常见的操作系统(windows、IOS、Android、MacOS, Linux, Unix)</p></li><li><p>Linux 主要的发行版：</p><p>Ubuntu(乌班图)、RedHat(红帽)、CentOS、Debain[蝶变]、Fedora、SuSE、OpenSUSE</p></li><li><p>Linux 和Unix 的关系：</p><p>Linux 和 Unix 是两种操作系统，Linux 是一种类 Unix 的操作系统，它们都是多用户、多任务的操作系统，Linux 还具有一些 Unix 所没有的特性，例如支持多种文件系统、支持多种硬件平台、支持多种编程语言等</p><p>![Linux 和Unix 关系图](&#x2F;img&#x2F;Linux&#x2F;Linux 和Unix 关系图.jpg)</p></li></ul><h2 id="VM-和Linux-的安装"><a href="#VM-和Linux-的安装" class="headerlink" title="VM 和Linux 的安装"></a>VM 和Linux 的安装</h2><ul><li><p>需要创建一个虚拟机，然后在虚拟机上安装一个Centos 系统</p></li><li><p>原理示意图：</p><p><img src="/img/Linux/%E5%8E%9F%E7%90%86%E7%A4%BA%E6%84%8F%E5%9B%BE.jpg" alt="原理示意图">你</p></li></ul><h2 id="安装vmtools"><a href="#安装vmtools" class="headerlink" title="安装vmtools"></a>安装vmtools</h2><ul><li>vmtools 安装后，可以在windows 下更好的管理vm 虚拟机</li><li>可以设置windows 和centos 的共享文件夹</li></ul><h1 id="虚拟机操作"><a href="#虚拟机操作" class="headerlink" title="虚拟机操作"></a>虚拟机操作</h1><h2 id="虚拟机克隆"><a href="#虚拟机克隆" class="headerlink" title="虚拟机克隆"></a>虚拟机克隆</h2><p>如果已经安装了一台linux 操作系统，还想安装更多，没有必要重新安装，只需要克隆    </p><ol><li>方式1：直接拷贝一份安装好的虚拟机文件</li><li>方式2：右键虚拟机，使用vmware 的克隆操作，一般选择完整克隆  （注意， 克隆时需要先关闭linux 系统）</li></ol><h2 id="虚拟机快照"><a href="#虚拟机快照" class="headerlink" title="虚拟机快照"></a>虚拟机快照</h2><ul><li><p>在使用虚拟机系统时，想回到原先的某一个状态，如担心有些误操作造成系统异常，需要回到原先某个正常运行的状态，可以使用vmware 提供快照管理功能</p></li><li><p>进入系统后右键虚拟机，选择快照-拍摄快照，记录状态</p></li><li><p>进入快照管理器，点击想要转到的快照</p></li></ul><h2 id="虚拟机迁移和删除"><a href="#虚拟机迁移和删除" class="headerlink" title="虚拟机迁移和删除"></a>虚拟机迁移和删除</h2><ul><li>虚拟系统安装本质是文件(放在文件夹中)、</li><li>迁移：把安装好的虚拟系统文件夹整体拷贝或者剪切到另外位置使用</li><li>删除：用vmware 进行移除，点击菜单 –&gt; 从磁盘删除即可，或者直接手动删除虚拟系统对应的文件夹</li></ul><h1 id="Linux目录结构"><a href="#Linux目录结构" class="headerlink" title="Linux目录结构"></a>Linux目录结构</h1><ul><li>linux 的文件系统采用级层式的树状目录结构，在此结构中，最上层是根目录“&#x2F;”，然后在此目录下创建其他的目录</li><li>在Linux 里，一切皆文件(!!)</li></ul><h2 id="具体的目录结构-不用背"><a href="#具体的目录结构-不用背" class="headerlink" title="具体的目录结构(不用背)"></a>具体的目录结构(不用背)</h2><ol><li><strong>&#x2F;（根目录）</strong>：所有目录和文件的最顶层目录</li><li><strong>&#x2F;bin（二进制文件）</strong>：包含系统启动时必需的二进制文件，如<code>ls</code>、<code>cp</code>、<code>mv</code>等。是Binary 的缩写, 这个目录存放最经常使用的命令</li><li><strong>&#x2F;sbin（系统二进制文件）</strong>：包含系统管理程序，如<code>ifconfig</code>、<code>reboot</code>等。s 是Super User 的意思，这里存放系统管理员使用的系统管理程序</li><li><strong>&#x2F;home（用户主目录）</strong>：存放普通用户的主目录，在Linux 中每个用户都有一个自己的目录，一般该目录名是以用户的账号命名，如<code>/home/user1</code>、<code>/home/user2</code>等</li><li><strong>&#x2F;root（根用户主目录）</strong>：根用户（超级用户）的主目录</li><li><strong>&#x2F;lib</strong>： 系统开机所需要最基本的动态连接共享库，作用类似于Windows 里的DLL 文件。几乎所有的应用程序都需要用到这些共享库</li><li><strong>&#x2F;lost+found</strong>：该目录一般情况下为空，当系统非法关机后，这里就存放了一些文件</li><li><strong>&#x2F;etc（配置文件）</strong>：所有的系统管理所需要的配置文件和子目录, 如安装mysql数据库my.conf</li><li><strong>&#x2F;usr（用户程序）</strong>：包含用户程序和文件，如<code>/usr/bin</code>（用户二进制文件）、<code>/usr/lib</code>（库文件）、<code>/usr/share</code>（共享文件）等。用户的很多应用程序和文件都放在这个目录下，类似与windows 下的program files 目录</li><li><strong>&#x2F;boot（启动文件）</strong>：存放启动Linux 时使用的核心文件，包括一些连接文件以及镜像文件</li><li><strong>&#x2F;proc（进程信息）</strong>：不能动，一个虚拟的目录，它是系统内存的映射，访问这个目录来获取系统信息</li><li><strong>&#x2F;srv（服务数据）</strong>：包含特定服务的数据，如网站服务的数据</li><li><strong>&#x2F;sys（系统信息）</strong>：包含系统信息，如设备驱动程序信息</li><li><strong>&#x2F;tmp（临时文件）</strong>：包含临时文件，系统重启后这些文件会被清除</li><li><strong>&#x2F;dev（设备文件）</strong>：包含设备文件，如<code>/dev/sda</code>（硬盘）、<code>/dev/tty</code>（终端）等</li><li><strong>&#x2F;media（自动挂载点）</strong>：用于自动挂载的设备，如USB驱动器、CD-ROM等</li><li><strong>&#x2F;opt（可选软件）</strong>：包含可选的第三方软件，如<code>/opt/oracle</code>、<code>/opt/mysql</code>等</li><li><strong>&#x2F;usr&#x2F;local</strong>：这是另一个给主机额外安装软件所安装的目录。一般是通过编译源码方式安装的程序</li><li><strong>&#x2F;var（变量文件）</strong>：包含经常变化的文件，如日志文件、缓存文件、临时文件等</li><li><strong>&#x2F;selinux</strong> [security-enhanced linux]：SELinux 是一种安全子系统,它能控制程序只能访问特定文件, 有三种工作模式，可以自行设置</li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git入门</title>
       <link href="/2024/11/16/Git%E5%85%A5%E9%97%A8/"/>
       <url>/2024/11/16/Git%E5%85%A5%E9%97%A8/</url>
