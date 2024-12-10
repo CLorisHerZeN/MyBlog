@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Git入门 | 机器人在吹萨克斯</title><meta name="author" content="ClorisHerZeN"><meta name="copyright" content="ClorisHerZeN"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="概述 Git是一个免费的、开源的 分布式版本控制系统 ，可以快速高效地处理从小型到大型的各种项目 Git占地面积小，性能极快 。 它具有廉价的本地库 ，方便的暂存区域和多个工作流分支等特性。  版本控制 版本控制是一种记录文件内容变化，以便将来查阅特定版本修订情况的系统 版本控制最重要的是可以记录文件修改历史记录，从而让用户能够查看历史版本，方便版本切换。  重要性 历史记录：版本控制系统能够记录">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Git入门 | 机器人在吹萨克斯</title><meta name="author" content="ClorisHerZeN"><meta name="copyright" content="ClorisHerZeN"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="概述  Git是一个免费的、开源的 分布式版本控制系统 ，可以快速高效地处理从小型到大型的各种项目 Git占地面积小，性能极快 。 它具有廉价的本地库 ，方便的暂存区域和多个工作流分支等特性。  版本控制  版本控制是一种记录文件内容变化，以便将来查阅特定版本修订情况的系统 版本控制最重要的是可以记录文件修改历史记录，从而让用户能够查看历史版本，方便版本切换。  重要性  历史记录：版本控制系统能">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git入门">
 <meta property="og:url" content="http://example.com/2024/11/16/Git%E5%85%A5%E9%97%A8/index.html">
 <meta property="og:site_name" content="机器人在吹萨克斯">
-<meta property="og:description" content="概述 Git是一个免费的、开源的 分布式版本控制系统 ，可以快速高效地处理从小型到大型的各种项目 Git占地面积小，性能极快 。 它具有廉价的本地库 ，方便的暂存区域和多个工作流分支等特性。  版本控制 版本控制是一种记录文件内容变化，以便将来查阅特定版本修订情况的系统 版本控制最重要的是可以记录文件修改历史记录，从而让用户能够查看历史版本，方便版本切换。  重要性 历史记录：版本控制系统能够记录">
+<meta property="og:description" content="概述  Git是一个免费的、开源的 分布式版本控制系统 ，可以快速高效地处理从小型到大型的各种项目 Git占地面积小，性能极快 。 它具有廉价的本地库 ，方便的暂存区域和多个工作流分支等特性。  版本控制  版本控制是一种记录文件内容变化，以便将来查阅特定版本修订情况的系统 版本控制最重要的是可以记录文件修改历史记录，从而让用户能够查看历史版本，方便版本切换。  重要性  历史记录：版本控制系统能">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/img/git/git.png">
 <meta property="article:published_time" content="2024-11-15T16:00:00.000Z">
@@ -174,19 +174,23 @@
     document.addEventListener('pjax:send', () => { preloader.initLoading() })
     document.addEventListener('pjax:complete', () => { preloader.endLoading() })
   }
-})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">63</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/git/git.png')"><nav id="nav"><span id="blog-info"><a href="/" title="机器人在吹萨克斯"><span class="site-name">机器人在吹萨克斯</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Git入门</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-11-15T16:00:00.000Z" title="发表于 2024-11-16 00:00:00">2024-11-16</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-11-16T05:16:21.627Z" title="更新于 2024-11-16 13:16:21">2024-11-16</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.9k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>9分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Git入门"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><ul>
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">64</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/git/git.png')"><nav id="nav"><span id="blog-info"><a href="/" title="机器人在吹萨克斯"><span class="site-name">机器人在吹萨克斯</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Git入门</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-11-15T16:00:00.000Z" title="发表于 2024-11-16 00:00:00">2024-11-16</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-11-16T05:16:21.627Z" title="更新于 2024-11-16 13:16:21">2024-11-16</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.8k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>9分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Git入门"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1>概述</h1>
+<ul>
 <li>Git是一个免费的、开源的 分布式版本控制系统 ，可以快速高效地处理从小型到大型的各种项目</li>
 <li>Git占地面积小，性能极快 。 它具有廉价的本地库 ，方便的暂存区域和多个工作流分支等特性。</li>
 </ul>
-<h2 id="版本控制"><a href="#版本控制" class="headerlink" title="版本控制"></a>版本控制</h2><ul>
+<h2 id="版本控制">版本控制</h2>
+<ul>
 <li>版本控制是一种记录文件内容变化，以便将来查阅特定版本修订情况的系统</li>
 <li>版本控制最重要的是可以记录文件修改历史记录，从而让用户能够查看历史版本，方便版本切换。</li>
 </ul>
-<h2 id="重要性"><a href="#重要性" class="headerlink" title="重要性"></a>重要性</h2><ol>
+<h2 id="重要性">重要性</h2>
+<ol>
 <li><strong>历史记录</strong>：版本控制系统能够记录代码的每一次更改，包括谁做了更改、何时做的更改以及为什么做的更改。这有助于开发人员了解代码的演变过程，并在需要时回溯到之前的版本。</li>
 <li><strong>协作</strong>：在团队开发中，多个开发人员可能会同时工作在同一个项目上。版本控制系统允许团队成员在本地进行更改，然后将这些更改合并到主代码库中，从而实现高效的协作。</li>
 </ol>
-<h2 id="版本控制工具"><a href="#版本控制工具" class="headerlink" title="版本控制工具"></a>版本控制工具</h2><p><strong>集中式版本控制工具</strong></p>
+<h2 id="版本控制工具">版本控制工具</h2>
+<p><strong>集中式版本控制工具</strong></p>
 <ul>
 <li>集中化的版本控制系统诸如 CVS、<strong>SVN（Subversion）</strong>、VSS 等，都有一个单一的集中管理的服务器，保存所有文件的修订版本，而协同工作的人们都通过客户端连到这台服务器，取出最新的文件或者提交更新</li>
 <li>好处：每个人都可以在一定程度上看到项目中的其他人的行为。而管理员也可轻松掌控每个开发者的权限，并且管理一个集中化的版本控制系统，比在各个客户端上维护本地数据库轻松容易。</li>
@@ -194,26 +198,32 @@
 </ul>
 <p><strong>分布式版本控制工具</strong></p>
 <ul>
-<li><p>如<strong>Git</strong>、Mercurial、Bazaar、Darcs等，客户端提取的不是最新版本的文件快照，而是把代码仓库完整地镜像下来 （本地库）。任何一处协同工作用的文件发生故障，事后都可以用其他客户端的本地仓库进行恢复。因为每个客户端的每一次文件提取操作，都是一次对整个文件仓库的完整备份。</p>
+<li>
+<p>如<strong>Git</strong>、Mercurial、Bazaar、Darcs等，客户端提取的不是最新版本的文件快照，而是把代码仓库完整地镜像下来 （本地库）。任何一处协同工作用的文件发生故障，事后都可以用其他客户端的本地仓库进行恢复。因为每个客户端的每一次文件提取操作，都是一次对整个文件仓库的完整备份。</p>
 </li>
-<li><p>解决了集中式版本控制系统的缺陷：</p>
+<li>
+<p>解决了集中式版本控制系统的缺陷：</p>
 <p>服务器断网的情况下也可以进行开发，因为版本控制是在本地进行的</p>
 <p>每个客户端保存的也都是整个完整的项目，包含历史记录，更加安全</p>
 </li>
 </ul>
-<h1 id="Git-工作机制"><a href="#Git-工作机制" class="headerlink" title="Git 工作机制"></a>Git 工作机制</h1><ul>
+<h1>Git 工作机制</h1>
+<ul>
 <li>工作区：代码存放的磁盘的目录位置</li>
 </ul>
-<p>![Git 工作机制](&#x2F;img&#x2F;git&#x2F;Git 工作机制.png)</p>
-<h2 id="Git-和代码托管中心"><a href="#Git-和代码托管中心" class="headerlink" title="Git 和代码托管中心"></a>Git 和代码托管中心</h2><ul>
+<p>![Git 工作机制](/img/git/Git 工作机制.png)</p>
+<h2 id="Git-和代码托管中心">Git 和代码托管中心</h2>
+<ul>
 <li>代码托管中心是基于网络服务器的远程代码仓库，一般我们简单称为远程库</li>
 <li>局域网：GitLab</li>
 <li>互联网：GitHub（外网）、Gitee 码云（国内网站）</li>
 </ul>
-<h1 id="Git常用命令"><a href="#Git常用命令" class="headerlink" title="Git常用命令"></a>Git常用命令</h1><h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2><p><strong>打开git后端</strong>：</p>
+<h1>Git常用命令</h1>
+<h2 id="基本操作">基本操作</h2>
+<p><strong>打开git后端</strong>：</p>
 <ol>
-<li>鼠标右键 –&gt; Git Bash Here</li>
-<li>找到自己新建的文件夹，然后鼠标右键 –&gt; Git Bash Here(需要初始化文件)</li>
+<li>鼠标右键 --&gt; Git Bash Here</li>
+<li>找到自己新建的文件夹，然后鼠标右键 --&gt; Git Bash Here(需要初始化文件)</li>
 </ol>
 <table>
 <thead>
@@ -222,12 +232,13 @@
 <th>作用</th>
 </tr>
 </thead>
-<tbody><tr>
-<td>git config –global user.name 用户名</td>
+<tbody>
+<tr>
+<td>git config --global <a target="_blank" rel="noopener" href="http://user.name">user.name</a> 用户名</td>
 <td>设置用户签名</td>
 </tr>
 <tr>
-<td>git config –global user.email 邮箱</td>
+<td>git config --global user.email 邮箱</td>
 <td>设置用户签名</td>
 </tr>
 <tr>
@@ -243,7 +254,7 @@
 <td>添加到暂存区</td>
 </tr>
 <tr>
-<td>git commit -m “ 日志信息 （名字可以任意取）” 文件名</td>
+<td>git commit -m &quot; 日志信息 （名字可以任意取）&quot; 文件名</td>
 <td>提交到本地库</td>
 </tr>
 <tr>
@@ -251,15 +262,19 @@
 <td>查看历史记录</td>
 </tr>
 <tr>
-<td>git reset –hard 版本号（查看历史记录时候给的版本号）</td>
+<td>git reset --hard 版本号（查看历史记录时候给的版本号）</td>
 <td>版本穿梭</td>
 </tr>
-</tbody></table>
-<h2 id="分支操作"><a href="#分支操作" class="headerlink" title="分支操作"></a>分支操作</h2><p>![Git 分支操作](&#x2F;img&#x2F;git&#x2F;Git 分支操作.png)</p>
+</tbody>
+</table>
+<h2 id="分支操作">分支操作</h2>
+<p>![Git 分支操作](/img/git/Git 分支操作.png)</p>
 <ul>
-<li><p>分支：在版本控制过程中，同时推进多个任务，为每个任务可以创建每个任务的单独分支。使用分支意味着程序员可以把工作从开发主线上分离开来，开发分支的时候，不会影响主线分支的运行。分支可以简单理解为副本，一个分支就是一个单独的副本。（分支底层其实也是指针的引用）</p>
+<li>
+<p>分支：在版本控制过程中，同时推进多个任务，为每个任务可以创建每个任务的单独分支。使用分支意味着程序员可以把工作从开发主线上分离开来，开发分支的时候，不会影响主线分支的运行。分支可以简单理解为副本，一个分支就是一个单独的副本。（分支底层其实也是指针的引用）</p>
 </li>
-<li><p>好处：</p>
+<li>
+<p>好处：</p>
 <p>同时并行推进多个功能开发，提高开发效率</p>
 <p>各个分支在开发过程中，如果某一个分支开发失败，不会对其他分支有影响。失败的分支删除重新开始即可</p>
 </li>
@@ -271,7 +286,8 @@
 <th>作用</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>git branch 分支名</td>
 <td>创建分支</td>
 </tr>
@@ -287,57 +303,76 @@
 <td>git merge 分支名</td>
 <td>把指定的分支合并到当前分支上</td>
 </tr>
-</tbody></table>
-<h3 id="产生冲突"><a href="#产生冲突" class="headerlink" title="产生冲突"></a>产生冲突</h3><ul>
+</tbody>
+</table>
+<h3 id="产生冲突">产生冲突</h3>
+<ul>
 <li>冲突产生的表现：后面状态为 MERGING</li>
 <li>冲突产生的原因：合并分支时，两个分支在同一个文件的同一个位置有两套完全不同的修改。 Git无法决定使用哪一个，必须人为决定新代码内容。</li>
 </ul>
-<h3 id="解决冲突"><a href="#解决冲突" class="headerlink" title="解决冲突"></a>解决冲突</h3><ol>
-<li><p>编辑有冲突的文件，删除特殊符号，决定要使用的内容</p>
+<h3 id="解决冲突">解决冲突</h3>
+<ol>
+<li>
+<p>编辑有冲突的文件，删除特殊符号，决定要使用的内容</p>
 <p>特殊符号：<code>&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code> HEAD 当前分支的代码 <code>=======</code> 合并过来的代码 <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code> hot-fix</p>
 <p><img src="/img/git/%E7%89%B9%E6%AE%8A%E7%AC%A6%E5%8F%B7.png" alt="特殊符号"></p>
 </li>
-<li><p>添加到暂存区</p>
+<li>
+<p>添加到暂存区</p>
 </li>
-<li><p>执行提交（注意：此时使用git commit 命令时不能带文件名）</p>
+<li>
+<p>执行提交（注意：此时使用git commit 命令时不能带文件名）</p>
 </li>
 </ol>
-<h1 id="Git-团队协作机制"><a href="#Git-团队协作机制" class="headerlink" title="Git 团队协作机制"></a>Git 团队协作机制</h1><h2 id="团队内协作"><a href="#团队内协作" class="headerlink" title="团队内协作"></a>团队内协作</h2><p><img src="/img/git/%E5%9B%A2%E9%98%9F%E5%86%85%E5%8D%8F%E4%BD%9C%E7%9A%84%E8%BF%87%E7%A8%8B.png" alt="团队内协作的过程"></p>
+<h1>Git 团队协作机制</h1>
+<h2 id="团队内协作">团队内协作</h2>
+<p><img src="/img/git/%E5%9B%A2%E9%98%9F%E5%86%85%E5%8D%8F%E4%BD%9C%E7%9A%84%E8%BF%87%E7%A8%8B.png" alt="团队内协作的过程"></p>
 <ol>
 <li>项目基本开发好了之后，项目经理推送(push)到代码托管中心。</li>
 <li>如果项目需要修改某些需求，则开发人员先从代码托管中心克隆(clone)整个项目到本地库，进行修改。</li>
 <li>开发人员修改好了之后，再推送(push)到代码托管中心。</li>
 <li>此时项目经理如果需要查看最新修改的代码，从代码托管中心进行拉取(pull)即可。</li>
 </ol>
-<h2 id="跨团队协作"><a href="#跨团队协作" class="headerlink" title="跨团队协作"></a>跨团队协作</h2><p><img src="/img/git/%E8%B7%A8%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E7%9A%84%E8%BF%87%E7%A8%8B.png" alt="跨团队协作的过程"></p>
+<h2 id="跨团队协作">跨团队协作</h2>
+<p><img src="/img/git/%E8%B7%A8%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E7%9A%84%E8%BF%87%E7%A8%8B.png" alt="跨团队协作的过程"></p>
 <ol>
-<li><p>如果A团队的代码需要B团队来帮助修改，首先B团队需要fork A团队的代码，这样B团队在自己的远程库中就有了一份与A团队相同的项目。</p>
+<li>
+<p>如果A团队的代码需要B团队来帮助修改，首先B团队需要fork A团队的代码，这样B团队在自己的远程库中就有了一份与A团队相同的项目。</p>
 </li>
-<li><p>B团队将项目克隆到自己的本地库。</p>
+<li>
+<p>B团队将项目克隆到自己的本地库。</p>
 <blockquote>
 <p>注意：这里B团队为什么不能直接克隆A团队代码到自己的本地库呢？因为B 团队修改好了之后，由于不再同一个开发团队，所以B团队没有权限将代码push到A团队的远程库。所以B团队只能通过fork，先在自己的代码托管中心形成项目的远程库，修改好了之后，push到自己的远程库，最后通过pull request向A团队发起合并请求。</p>
 </blockquote>
 </li>
-<li><p>B团队修改好了之后，push到自己的远程库。</p>
+<li>
+<p>B团队修改好了之后，push到自己的远程库。</p>
 </li>
-<li><p>向A团队发起pull request。</p>
+<li>
+<p>向A团队发起pull request。</p>
 </li>
-<li><p>A团队审核B团队的修改。</p>
+<li>
+<p>A团队审核B团队的修改。</p>
 </li>
-<li><p>如果A团队觉得没问题，审核通过的话，那么就合并B团队的修改。</p>
+<li>
+<p>如果A团队觉得没问题，审核通过的话，那么就合并B团队的修改。</p>
 </li>
-<li><p>A团队所有成员通过pull，就可以看到B团队的修改。</p>
+<li>
+<p>A团队所有成员通过pull，就可以看到B团队的修改。</p>
 </li>
 </ol>
-<h1 id="GitHub操作"><a href="#GitHub操作" class="headerlink" title="GitHub操作"></a>GitHub操作</h1><p>GitHub网址： <a target="_blank" rel="noopener" href="https://github.com/">https://github.com/</a></p>
-<h2 id="远程仓库操作"><a href="#远程仓库操作" class="headerlink" title="远程仓库操作"></a>远程仓库操作</h2><table>
+<h1>GitHub操作</h1>
+<p>GitHub网址： <a target="_blank" rel="noopener" href="https://github.com/">https://github.com/</a></p>
+<h2 id="远程仓库操作">远程仓库操作</h2>
+<table>
 <thead>
 <tr>
 <th>命令名称</th>
 <th>作用</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>git remote -v</td>
 <td>查看当前所有远程地址别名</td>
 </tr>
@@ -357,31 +392,42 @@
 <td>git pull 远程库地址别名 远程分支名</td>
 <td>将远程仓库对于 分支最新内容拉下来后与当前本地分支直接合并</td>
 </tr>
-</tbody></table>
-<h1 id="IDEA集成Git"><a href="#IDEA集成Git" class="headerlink" title="IDEA集成Git"></a>IDEA集成Git</h1><h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><p><strong>配置 Git忽略文件</strong></p>
+</tbody>
+</table>
+<h1>IDEA集成Git</h1>
+<h2 id="环境准备">环境准备</h2>
+<p><strong>配置 Git忽略文件</strong></p>
 <ul>
-<li><p>类似Maven工程的 target目录、IDEA特定文件等，与项目的实际功能无关，不参与服务器上部署运行。把它们忽略掉能够屏蔽 IDE工具之间的差异。</p>
+<li>
+<p>类似Maven工程的 target目录、IDEA特定文件等，与项目的实际功能无关，不参与服务器上部署运行。把它们忽略掉能够屏蔽 IDE工具之间的差异。</p>
 </li>
-<li><p>创建忽略规则文件 xxxx.ignore（前缀名随便起 ，建议是 git.ignore）</p>
-<p>这个文件的存放位置原则上在哪里都可以，为了便于让~&#x2F;.gitconfig文件引用，建议也放在用户定位 Git程序下</p>
+<li>
+<p>创建忽略规则文件 xxxx.ignore（前缀名随便起 ，建议是 git.ignore）</p>
+<p>这个文件的存放位置原则上在哪里都可以，为了便于让~/.gitconfig文件引用，建议也放在用户定位 Git程序下</p>
 </li>
-<li><p>git.ignore文件模版：</p>
+<li>
+<p>git.ignore文件模版：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"># Compiled class file</span><br><span class="line">*.class</span><br><span class="line"></span><br><span class="line"># Log file</span><br><span class="line">*.log</span><br><span class="line"></span><br><span class="line"># BlueJ files</span><br><span class="line">*.ctxt</span><br><span class="line"></span><br><span class="line"># Mobile Tools for Java (</span><br><span class="line">.mtj.</span><br><span class="line"></span><br><span class="line"># Package Files</span><br><span class="line">*.jar</span><br><span class="line">*.war</span><br><span class="line">*.nar</span><br><span class="line">*.ear</span><br><span class="line">*.zip</span><br><span class="line">*.tar.gz</span><br><span class="line">*.rar</span><br><span class="line"></span><br><span class="line"># virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml</span><br><span class="line">hs_err_pid*</span><br><span class="line"></span><br><span class="line">.classpath</span><br><span class="line">.project</span><br><span class="line">.settings</span><br><span class="line">target</span><br><span class="line">.idea</span><br><span class="line">*.iml</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>在 .gitconfig文件中引用忽略配置文件（此文件在 Windows的家目录中）</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[user]</span><br><span class="line">    name = Layne</span><br><span class="line">    email = Layne@atguigu.com</span><br><span class="line">[core]</span><br><span class="line">    excludesfile = C:/Users/asus/git.ignore</span><br><span class="line">注意：这里要使用“正斜线（/）”，不要使用“反斜线（\）”</span><br></pre></td></tr></table></figure></li>
+<li>
+<p>在 .gitconfig文件中引用忽略配置文件（此文件在 Windows的家目录中）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[user]</span><br><span class="line">    name = Layne</span><br><span class="line">    email = Layne@atguigu.com</span><br><span class="line">[core]</span><br><span class="line">    excludesfile = C:/Users/asus/git.ignore</span><br><span class="line">注意：这里要使用“正斜线（/）”，不要使用“反斜线（\）”</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
 <p><strong>定位 Git程序</strong></p>
-<p>![定位 Git程序](&#x2F;img&#x2F;git&#x2F;定位 Git程序.jpg)</p>
+<p>![定位 Git程序](/img/git/定位 Git程序.jpg)</p>
 <p><strong>初始化本地库</strong></p>
 <ul>
-<li><p>VCS：Version Control Setting</p>
+<li>
+<p>VCS：Version Control Setting</p>
 <p><img src="/img/git/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%9C%AC%E5%9C%B0%E5%BA%93.jpg" alt="初始化本地库"></p>
 </li>
-<li><p>选择要创建Git本地仓库的工程</p>
+<li>
+<p>选择要创建Git本地仓库的工程</p>
 </li>
 </ul>
-<h2 id="基础操作"><a href="#基础操作" class="headerlink" title="基础操作"></a>基础操作</h2><p><strong>添加到暂存区</strong></p>
+<h2 id="基础操作">基础操作</h2>
+<p><strong>添加到暂存区</strong></p>
 <ul>
 <li>右键点击项目选择Git -&gt; Add将项目添加到暂存区</li>
 </ul>
@@ -395,7 +441,8 @@
 <li>在IDEA的左下角，点击 Version Control，然后点击 Log查看版本</li>
 <li>右键选择要切换的版本，然后在菜单里点击Checkout Revision</li>
 </ul>
-<h2 id="分支操作-1"><a href="#分支操作-1" class="headerlink" title="分支操作"></a>分支操作</h2><p><strong>创建分支</strong></p>
+<h2 id="分支操作-2">分支操作</h2>
+<p><strong>创建分支</strong></p>
 <ul>
 <li>选择Git 在 Repository里面 ，点击 Branches按钮</li>
 <li>在弹出的Git Branches框里 点击 New Branch按钮</li>
@@ -414,34 +461,48 @@
 </ul>
 <p><strong>解决冲突</strong></p>
 <ul>
-<li><p>点击 Conflicts框里的 Merge按钮，进行手动合并代码</p>
+<li>
+<p>点击 Conflicts框里的 Merge按钮，进行手动合并代码</p>
 <p><img src="/img/git/%E6%89%8B%E5%8A%A8%E5%90%88%E5%B9%B6%E4%BB%A3%E7%A0%81.jpg" alt="手动合并代码"></p>
 </li>
-<li><p>手动合并完代码以后，点击右下角的 Apply按钮，代码冲突解决，自动提交本地库</p>
+<li>
+<p>手动合并完代码以后，点击右下角的 Apply按钮，代码冲突解决，自动提交本地库</p>
 </li>
 </ul>
-<h1 id="IDEA集成GitHub"><a href="#IDEA集成GitHub" class="headerlink" title="IDEA集成GitHub"></a>IDEA集成GitHub</h1><h2 id="设置-GitHub账号"><a href="#设置-GitHub账号" class="headerlink" title="设置 GitHub账号"></a>设置 GitHub账号</h2><p>![设置 GitHub账号](&#x2F;img&#x2F;git&#x2F;设置 GitHub账号.jpg)</p>
-<h2 id="分享工程到-GitHub"><a href="#分享工程到-GitHub" class="headerlink" title="分享工程到 GitHub"></a>分享工程到 GitHub</h2><p>![分享工程到 GitHub](&#x2F;img&#x2F;git&#x2F;分享工程到 GitHub.png)</p>
-<h2 id="push推送本地库到远程库"><a href="#push推送本地库到远程库" class="headerlink" title="push推送本地库到远程库"></a>push推送本地库到远程库</h2><ul>
-<li><p>右键点击项目，可以将当前分支的内容push到 GitHub的远程仓库中</p>
+<h1>IDEA集成GitHub</h1>
+<h2 id="设置-GitHub账号">设置 GitHub账号</h2>
+<p>![设置 GitHub账号](/img/git/设置 GitHub账号.jpg)</p>
+<h2 id="分享工程到-GitHub">分享工程到 GitHub</h2>
+<p>![分享工程到 GitHub](/img/git/分享工程到 GitHub.png)</p>
+<h2 id="push推送本地库到远程库">push推送本地库到远程库</h2>
+<ul>
+<li>
+<p>右键点击项目，可以将当前分支的内容push到 GitHub的远程仓库中</p>
 <p><img src="/img/git/push%E6%8E%A8%E9%80%81%E6%9C%AC%E5%9C%B0%E5%BA%93%E5%88%B0%E8%BF%9C%E7%A8%8B%E5%BA%93.jpg" alt="push推送本地库到远程库"></p>
 <p><img src="/img/git/%E8%BF%9E%E6%8E%A5%E5%88%AB%E5%90%8D.png" alt="连接别名"></p>
 </li>
-<li><p>注意：<br>push是将本地库代码推送到远程库，如果本地库代码跟远程库代码版本不一致，push的操作会被拒绝， 要想 push成功，一定要保证本地库的版本比远程库的版本高。因此在动手改本地代码之前，先检查远程库跟本地代码的区别，如果本地的代码版本已经落后，要先 pull拉取一下远程库的代码，将本地代码更新到最新以后，然后再修改，提交，推送。</p>
+<li>
+<p>注意：<br>
+push是将本地库代码推送到远程库，如果本地库代码跟远程库代码版本不一致，push的操作会被拒绝， 要想 push成功，一定要保证本地库的版本比远程库的版本高。因此在动手改本地代码之前，先检查远程库跟本地代码的区别，如果本地的代码版本已经落后，要先 pull拉取一下远程库的代码，将本地代码更新到最新以后，然后再修改，提交，推送。</p>
 </li>
 </ul>
-<h2 id="pull拉取远程库到本地库"><a href="#pull拉取远程库到本地库" class="headerlink" title="pull拉取远程库到本地库"></a>pull拉取远程库到本地库</h2><ul>
-<li><p>右键点击项目，可以将远程仓库的内容pull到本地仓库，勾选Branches to merge</p>
+<h2 id="pull拉取远程库到本地库">pull拉取远程库到本地库</h2>
+<ul>
+<li>
+<p>右键点击项目，可以将远程仓库的内容pull到本地仓库，勾选Branches to merge</p>
 <p><img src="/img/git/pull%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E5%BA%93%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%BA%93.jpg" alt="pull拉取远程库到本地库"></p>
 </li>
-<li><p>注意：<br>pull是拉取远端仓库代码到本地，如果远程库代码和本地库代码不一致，会自动合并，如果自动合并失败，还会涉及到手动解决冲突的问题</p>
+<li>
+<p>注意：<br>
+pull是拉取远端仓库代码到本地，如果远程库代码和本地库代码不一致，会自动合并，如果自动合并失败，还会涉及到手动解决冲突的问题</p>
 </li>
 </ul>
-<h2 id="clone克隆远程库到本地"><a href="#clone克隆远程库到本地" class="headerlink" title="clone克隆远程库到本地"></a>clone克隆远程库到本地</h2><p><img src="/img/git/clone%E5%85%8B%E9%9A%86%E8%BF%9C%E7%A8%8B%E5%BA%93%E5%88%B0%E6%9C%AC%E5%9C%B0.png" alt="clone克隆远程库到本地"></p>
+<h2 id="clone克隆远程库到本地">clone克隆远程库到本地</h2>
+<p><img src="/img/git/clone%E5%85%8B%E9%9A%86%E8%BF%9C%E7%A8%8B%E5%BA%93%E5%88%B0%E6%9C%AC%E5%9C%B0.png" alt="clone克隆远程库到本地"></p>
 <ul>
 <li>为clone下来的项目创建一个工程，然后点击 Next</li>
 </ul>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">ClorisHerZeN</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2024/11/16/Git%E5%85%A5%E9%97%A8/">http://example.com/2024/11/16/Git%E5%85%A5%E9%97%A8/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">机器人在吹萨克斯</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/git/">git</a></div><div class="post_share"><div class="social-share" data-image="/img/git/git.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/11/20/Linux%C2%B7%E5%9F%BA%E7%A1%80/" title="Linux·基础"><img class="cover" src="/img/Linux/Linux%E5%B0%81%E9%9D%A2.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Linux·基础</div></div></a></div><div class="next-post pull-right"><a href="/2024/11/11/MyBatisPlus/" title="MyBatisPlus"><img class="cover" src="/img/JavaWeb/MyBatisPlus%E5%B0%81%E9%9D%A2.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">MyBatisPlus</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">ClorisHerZeN</div><div class="author-info__description">I make my own luck.</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">63</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/CLorisHerZeN" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到 机器人在吹萨克斯，这是一个记录学习生活的博客！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A6%82%E8%BF%B0"><span class="toc-number">1.</span> <span class="toc-text">概述</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6"><span class="toc-number">1.1.</span> <span class="toc-text">版本控制</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%87%8D%E8%A6%81%E6%80%A7"><span class="toc-number">1.2.</span> <span class="toc-text">重要性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7"><span class="toc-number">1.3.</span> <span class="toc-text">版本控制工具</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Git-%E5%B7%A5%E4%BD%9C%E6%9C%BA%E5%88%B6"><span class="toc-number">2.</span> <span class="toc-text">Git 工作机制</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Git-%E5%92%8C%E4%BB%A3%E7%A0%81%E6%89%98%E7%AE%A1%E4%B8%AD%E5%BF%83"><span class="toc-number">2.1.</span> <span class="toc-text">Git 和代码托管中心</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="toc-number">3.</span> <span class="toc-text">Git常用命令</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="toc-number">3.1.</span> <span class="toc-text">基本操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E6%94%AF%E6%93%8D%E4%BD%9C"><span class="toc-number">3.2.</span> <span class="toc-text">分支操作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%A7%E7%94%9F%E5%86%B2%E7%AA%81"><span class="toc-number">3.2.1.</span> <span class="toc-text">产生冲突</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E5%86%B2%E7%AA%81"><span class="toc-number">3.2.2.</span> <span class="toc-text">解决冲突</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Git-%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E6%9C%BA%E5%88%B6"><span class="toc-number">4.</span> <span class="toc-text">Git 团队协作机制</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%A2%E9%98%9F%E5%86%85%E5%8D%8F%E4%BD%9C"><span class="toc-number">4.1.</span> <span class="toc-text">团队内协作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B7%A8%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C"><span class="toc-number">4.2.</span> <span class="toc-text">跨团队协作</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#GitHub%E6%93%8D%E4%BD%9C"><span class="toc-number">5.</span> <span class="toc-text">GitHub操作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%93%8D%E4%BD%9C"><span class="toc-number">5.1.</span> <span class="toc-text">远程仓库操作</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#IDEA%E9%9B%86%E6%88%90Git"><span class="toc-number">6.</span> <span class="toc-text">IDEA集成Git</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87"><span class="toc-number">6.1.</span> <span class="toc-text">环境准备</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C"><span class="toc-number">6.2.</span> <span class="toc-text">基础操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E6%94%AF%E6%93%8D%E4%BD%9C-1"><span class="toc-number">6.3.</span> <span class="toc-text">分支操作</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#IDEA%E9%9B%86%E6%88%90GitHub"><span class="toc-number">7.</span> <span class="toc-text">IDEA集成GitHub</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE-GitHub%E8%B4%A6%E5%8F%B7"><span class="toc-number">7.1.</span> <span class="toc-text">设置 GitHub账号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E4%BA%AB%E5%B7%A5%E7%A8%8B%E5%88%B0-GitHub"><span class="toc-number">7.2.</span> <span class="toc-text">分享工程到 GitHub</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#push%E6%8E%A8%E9%80%81%E6%9C%AC%E5%9C%B0%E5%BA%93%E5%88%B0%E8%BF%9C%E7%A8%8B%E5%BA%93"><span class="toc-number">7.3.</span> <span class="toc-text">push推送本地库到远程库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#pull%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E5%BA%93%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%BA%93"><span class="toc-number">7.4.</span> <span class="toc-text">pull拉取远程库到本地库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#clone%E5%85%8B%E9%9A%86%E8%BF%9C%E7%A8%8B%E5%BA%93%E5%88%B0%E6%9C%AC%E5%9C%B0"><span class="toc-number">7.5.</span> <span class="toc-text">clone克隆远程库到本地</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/11/23/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" title="排序算法"><img src="/img/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%B0%81%E9%9D%A2.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="排序算法"/></a><div class="content"><a class="title" href="/2024/11/23/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" title="排序算法">排序算法</a><time datetime="2024-11-22T16:00:00.000Z" title="发表于 2024-11-23 00:00:00">2024-11-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/11/20/Linux%C2%B7%E5%9F%BA%E7%A1%80/" title="Linux·基础"><img src="/img/Linux/Linux%E5%B0%81%E9%9D%A2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Linux·基础"/></a><div class="content"><a class="title" href="/2024/11/20/Linux%C2%B7%E5%9F%BA%E7%A1%80/" title="Linux·基础">Linux·基础</a><time datetime="2024-11-19T16:00:00.000Z" title="发表于 2024-11-20 00:00:00">2024-11-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/11/16/Git%E5%85%A5%E9%97%A8/" title="Git入门"><img src="/img/git/git.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Git入门"/></a><div class="content"><a class="title" href="/2024/11/16/Git%E5%85%A5%E9%97%A8/" title="Git入门">Git入门</a><time datetime="2024-11-15T16:00:00.000Z" title="发表于 2024-11-16 00:00:00">2024-11-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/11/11/MyBatisPlus/" title="MyBatisPlus"><img src="/img/JavaWeb/MyBatisPlus%E5%B0%81%E9%9D%A2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="MyBatisPlus"/></a><div class="content"><a class="title" href="/2024/11/11/MyBatisPlus/" title="MyBatisPlus">MyBatisPlus</a><time datetime="2024-11-10T16:00:00.000Z" title="发表于 2024-11-11 00:00:00">2024-11-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/11/08/SpringBoot%C2%B7%E5%9F%BA%E7%A1%80%E7%AF%87/" title="SpringBoot·基础篇"><img src="/img/JavaWeb/SpringBoot%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot·基础篇"/></a><div class="content"><a class="title" href="/2024/11/08/SpringBoot%C2%B7%E5%9F%BA%E7%A1%80%E7%AF%87/" title="SpringBoot·基础篇">SpringBoot·基础篇</a><time datetime="2024-11-07T16:00:00.000Z" title="发表于 2024-11-08 00:00:00">2024-11-08</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/top.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2024 By ClorisHerZeN</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">ClorisHerZeN</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2024/11/16/Git%E5%85%A5%E9%97%A8/">http://example.com/2024/11/16/Git%E5%85%A5%E9%97%A8/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">机器人在吹萨克斯</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/git/">git</a></div><div class="post_share"><div class="social-share" data-image="/img/git/git.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/11/20/Linux%C2%B7%E5%9F%BA%E7%A1%80/" title="Linux·基础"><img class="cover" src="/img/Linux/Linux%E5%B0%81%E9%9D%A2.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Linux·基础</div></div></a></div><div class="next-post pull-right"><a href="/2024/11/11/MyBatisPlus/" title="MyBatisPlus"><img class="cover" src="/img/JavaWeb/MyBatisPlus%E5%B0%81%E9%9D%A2.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">MyBatisPlus</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">ClorisHerZeN</div><div class="author-info__description">I make my own luck.</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">64</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/CLorisHerZeN" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到 机器人在吹萨克斯，这是一个记录学习生活的博客！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">概述</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6"><span class="toc-number">1.1.</span> <span class="toc-text">版本控制</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%87%8D%E8%A6%81%E6%80%A7"><span class="toc-number">1.2.</span> <span class="toc-text">重要性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7"><span class="toc-number">1.3.</span> <span class="toc-text">版本控制工具</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">2.</span> <span class="toc-text">Git 工作机制</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Git-%E5%92%8C%E4%BB%A3%E7%A0%81%E6%89%98%E7%AE%A1%E4%B8%AD%E5%BF%83"><span class="toc-number">2.1.</span> <span class="toc-text">Git 和代码托管中心</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">3.</span> <span class="toc-text">Git常用命令</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="toc-number">3.1.</span> <span class="toc-text">基本操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E6%94%AF%E6%93%8D%E4%BD%9C"><span class="toc-number">3.2.</span> <span class="toc-text">分支操作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%A7%E7%94%9F%E5%86%B2%E7%AA%81"><span class="toc-number">3.2.1.</span> <span class="toc-text">产生冲突</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E5%86%B2%E7%AA%81"><span class="toc-number">3.2.2.</span> <span class="toc-text">解决冲突</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">4.</span> <span class="toc-text">Git 团队协作机制</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%A2%E9%98%9F%E5%86%85%E5%8D%8F%E4%BD%9C"><span class="toc-number">4.1.</span> <span class="toc-text">团队内协作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B7%A8%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C"><span class="toc-number">4.2.</span> <span class="toc-text">跨团队协作</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">5.</span> <span class="toc-text">GitHub操作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%93%8D%E4%BD%9C"><span class="toc-number">5.1.</span> <span class="toc-text">远程仓库操作</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">6.</span> <span class="toc-text">IDEA集成Git</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87"><span class="toc-number">6.1.</span> <span class="toc-text">环境准备</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C"><span class="toc-number">6.2.</span> <span class="toc-text">基础操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E6%94%AF%E6%93%8D%E4%BD%9C-2"><span class="toc-number">6.3.</span> <span class="toc-text">分支操作</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">7.</span> <span class="toc-text">IDEA集成GitHub</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE-GitHub%E8%B4%A6%E5%8F%B7"><span class="toc-number">7.1.</span> <span class="toc-text">设置 GitHub账号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E4%BA%AB%E5%B7%A5%E7%A8%8B%E5%88%B0-GitHub"><span class="toc-number">7.2.</span> <span class="toc-text">分享工程到 GitHub</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#push%E6%8E%A8%E9%80%81%E6%9C%AC%E5%9C%B0%E5%BA%93%E5%88%B0%E8%BF%9C%E7%A8%8B%E5%BA%93"><span class="toc-number">7.3.</span> <span class="toc-text">push推送本地库到远程库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#pull%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E5%BA%93%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%BA%93"><span class="toc-number">7.4.</span> <span class="toc-text">pull拉取远程库到本地库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#clone%E5%85%8B%E9%9A%86%E8%BF%9C%E7%A8%8B%E5%BA%93%E5%88%B0%E6%9C%AC%E5%9C%B0"><span class="toc-number">7.5.</span> <span class="toc-text">clone克隆远程库到本地</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/12/10/%E5%9B%BE/" title="图"><img src="/img/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%9B%BE%E5%B0%81%E9%9D%A2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="图"/></a><div class="content"><a class="title" href="/2024/12/10/%E5%9B%BE/" title="图">图</a><time datetime="2024-12-09T16:00:00.000Z" title="发表于 2024-12-10 00:00:00">2024-12-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/11/23/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" title="排序算法"><img src="/img/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%B0%81%E9%9D%A2.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="排序算法"/></a><div class="content"><a class="title" href="/2024/11/23/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" title="排序算法">排序算法</a><time datetime="2024-11-22T16:00:00.000Z" title="发表于 2024-11-23 00:00:00">2024-11-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/11/20/Linux%C2%B7%E5%9F%BA%E7%A1%80/" title="Linux·基础"><img src="/img/Linux/Linux%E5%B0%81%E9%9D%A2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Linux·基础"/></a><div class="content"><a class="title" href="/2024/11/20/Linux%C2%B7%E5%9F%BA%E7%A1%80/" title="Linux·基础">Linux·基础</a><time datetime="2024-11-19T16:00:00.000Z" title="发表于 2024-11-20 00:00:00">2024-11-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/11/16/Git%E5%85%A5%E9%97%A8/" title="Git入门"><img src="/img/git/git.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Git入门"/></a><div class="content"><a class="title" href="/2024/11/16/Git%E5%85%A5%E9%97%A8/" title="Git入门">Git入门</a><time datetime="2024-11-15T16:00:00.000Z" title="发表于 2024-11-16 00:00:00">2024-11-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/11/11/MyBatisPlus/" title="MyBatisPlus"><img src="/img/JavaWeb/MyBatisPlus%E5%B0%81%E9%9D%A2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="MyBatisPlus"/></a><div class="content"><a class="title" href="/2024/11/11/MyBatisPlus/" title="MyBatisPlus">MyBatisPlus</a><time datetime="2024-11-10T16:00:00.000Z" title="发表于 2024-11-11 00:00:00">2024-11-11</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/top.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2024 By ClorisHerZeN</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
   window.MathJax = {
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
